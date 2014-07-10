@@ -80,6 +80,7 @@
     color: @backdrop_fg_color;
 }
 
+/* LP: #1285783 */
 GtkStack {
     background-color: @bg_color;
 }
