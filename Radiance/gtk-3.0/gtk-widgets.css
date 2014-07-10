@@ -79,6 +79,10 @@
     color: @backdrop_fg_color;
 }
 
+GtkStack {
+    background-color: @bg_color;
+}
+
 GtkPaned {
     background-color: @bg_color;
 }
