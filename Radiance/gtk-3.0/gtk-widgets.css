@@ -44,7 +44,6 @@
     -GtkWidget-separator-height: 2;
     -GtkWidget-link-color: @link_color;
     -GtkWidget-visited-link-color: @link_color;
-    -GtkWindow-decoration-button-layout: "close:";
     -GtkWindow-resize-grip-width: 0;
     -GtkWindow-resize-grip-height: 0;
     -WnckTasklist-fade-overlay-rect: 0;
