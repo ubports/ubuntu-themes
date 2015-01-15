@@ -20,7 +20,6 @@ Package: light-themes
 Architecture: all
 Multi-Arch: foreign
 Depends: gtk2-engines-murrine (>= 0.90.3+git20100810),
-         gtk3-engines-unico (>= 1.0.1-0ubuntu2),
          humanity-icon-theme,
          ubuntu-mono,
          ${misc:Depends},

@@ -42,8 +42,6 @@
     -GtkTreeView-vertical-separator: 0;
     -GtkWidget-separator-width: 2;
     -GtkWidget-separator-height: 2;
-    -GtkWidget-focus-padding: 0;
-    -GtkWidget-focus-line-width: 1px;
     -GtkWidget-link-color: @link_color;
     -GtkWidget-visited-link-color: @link_color;
     -GtkWindow-decoration-button-layout: "close:";
@@ -53,14 +51,6 @@
 
     background-origin: border-box;
     background-clip: padding-box;
-
-    engine: unico;
-
-    /* To avoid using custom attributes, unico looks at the outline attributes
-     * to find out how to render the focus ring.
-     */
-    outline-color: alpha (@selected_bg_color, 0.5);
-    outline-offset: 5px;
 }
 
 .background {
@@ -114,8 +104,6 @@ GtkAssistant .sidebar {
  * button *
  **********/
 .button {
-    -GtkWidget-focus-line-width: 0;
-
     padding: 5px 6px;
 
     background-image: -gtk-gradient (linear, left top, left bottom,
@@ -319,7 +307,6 @@ GtkAssistant .sidebar {
  ****************/
 .cell {
     -GtkCheckButton-indicator-size: 16;
-    -GtkWidget-focus-line-width: 0;
 
     background-color: @base_color;
     border-radius: 0;
@@ -364,6 +351,23 @@ GtkCheckButton:active:hover,
 GtkCheckButton:selected,
 GtkCheckButton:selected:focus {
     background-color: transparent;
+}
+
+/* Draw a focus ring around the contained label ... */
+GtkCheckButton.text-button GtkLabel {
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+GtkCheckButton.text-button:focus GtkLabel {
+    border-color: @focus_color;
+    background-color: @focus_bg_color;
+}
+
+/* ... unless it's a proper button, which already has a focus-colored border */
+.button.text-button:focus GtkLabel {
+    border: none;
+    background: none;
 }
 
 .menu .radio * {
@@ -485,8 +489,6 @@ GtkIconView.content-view.check:selected {
  * entry *
  *********/
 .entry {
-    -GtkWidget-focus-line-width: 0;
-
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@base_color, 0.96)),
                                      to (@base_color));
@@ -1005,6 +1007,17 @@ GtkComboBox .menu .menuitem *:insensitive {
     border-image-width: 0 1px;
 }
 
+/* Draw a focus ring around labels in tabs */
+.notebook tab GtkLabel {
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+
+.notebook:focus tab GtkLabel.active-page {
+    border-color: @focus_color;
+    background-color: @focus_bg_color;
+}
+
 .notebook GtkDrawingArea {
         background-color: shade (@bg_color, 1.02);
 }
@@ -1174,7 +1187,6 @@ GtkScale {
     -GtkRange-slider-width: 18;
     -GtkRange-trough-border: 0;
     -GtkScale-slider-length: 14;
-    -GtkWidget-focus-line-width: 0;
 }
 
 GtkScale.vertical {
@@ -1587,6 +1599,12 @@ GtkSwitch.trough:active {
 
     color: @selected_fg_color;
     text-shadow: 0 1px shade (@selected_bg_color, 0.7);
+}
+
+GtkSwitch:focus {
+    outline: 2px solid @focus_color;
+    outline-offset: -2px;
+    outline-radius: 6px;
 }
 
 /* XXX temporary */
