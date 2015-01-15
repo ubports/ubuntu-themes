@@ -336,22 +336,6 @@ row:selected:backdrop {
 /*******************
  * check and radio *
  *******************/
-.check,
-.radio,
-.check:insensitive,
-.radio:insensitive {
-
-    background-color: transparent;
-    border-style: none;
-    margin: 1px 0;
-}
-
-GtkCheckButton:hover,
-GtkCheckButton:active:hover,
-GtkCheckButton:selected,
-GtkCheckButton:selected:focus {
-    background-color: transparent;
-}
 
 /* Draw a focus ring around the contained label ... */
 GtkCheckButton.text-button GtkLabel {
@@ -465,26 +449,6 @@ GdMainIconView.content-view {
     -GdMainIconView-icon-size: 40;
 }
 
-GtkIconView.content-view.check {
-    background-color: transparent;
-}
-
-GtkIconView.content-view.check:checked {
-    background-color: transparent;
-}
-
-.content-view.view.check,
-.content-view.view.check:checked {
-    background-color: transparent;
-}
-
-GtkIconView.content-view.check:prelight,
-GtkIconView.content-view.check:insensitive,
-GtkIconView.content-view.check:backdrop,
-GtkIconView.content-view.check:selected {
-    background-color: transparent;
-}
-
 /*********
  * entry *
  *********/
@@ -588,24 +552,12 @@ GtkIconView.view.cell:selected:focused {
                 inset 0 -1px shade (@selected_bg_color, 1.0);
 }
 
-GtkIconView.cell {
-    background-color: transparent;
-}
-
 .rubberband {
     background-color: alpha (@selected_bg_color, 0.35);
     border-color: @selected_bg_color;
     border-radius: 0;
     border-style: solid;
     border-width: 1px;
-}
-
-/*********
- * image *
- *********/
-GtkImage,
-GtkImage:insensitive {
-    background-color: transparent;
 }
 
 /***********
@@ -681,23 +633,6 @@ GtkImage:insensitive {
                 inset -1px 0 shade (@error_bg_color, 1.08),
                 inset 0 1px shade (@error_bg_color, 1.1),
                 inset 0 -1px shade (@error_bg_color, 1.04);
-}
-
-/*********
- * label *
- *********/
-GtkLabel,
-GtkLabel:insensitive {
-    background-color: transparent;
-}
-
-/*********
- * stack *
- *********/
-
-GtkHeaderBar > GtkStack,
-GtkHeaderBar > GtkStack:insensitive {
-    background-color: transparent;
 }
 
 /********
@@ -1193,10 +1128,6 @@ GtkScale.vertical {
     -GtkScale-slider-length: 13;
 }
 
-.scale.slider {
-    background-color: transparent;
-}
-
 .scale.trough.highlight {
     background-color: #df784e;
     background-image: none;
@@ -1274,10 +1205,6 @@ GtkScale.mark {
                 inset -1px 0 shade (@bg_color, 1.1),
                 inset 0 1px shade (@bg_color, 1.1),
                 inset 0 -1px shade (@bg_color, 1.01);
-}
-
-.scrollbar.button,
-.scrollbar.button:insensitive {
 }
 
 /* overlay scrollbar */
@@ -1391,10 +1318,6 @@ GtkComboBox .menuitem.separator {
 /***********
  * sidebar *
  ***********/
-.sidebar,
-.sidebar .view {
-}
-
 .sidebar row:selected {
     text-shadow: 0 1px shade (@selected_bg_color, 0.7);
 }
@@ -1539,7 +1462,6 @@ GtkComboBox .menuitem.separator {
 }
 
 .spinner {
-    background-color: transparent;
     background-image: -gtk-gradient(radial, center center, 0, center center, 0.5, to(currentColor), to(transparent)),
                       -gtk-gradient(radial, center center, 0, center center, 0.5, to(currentColor), to(transparent)),
                       -gtk-gradient(radial, center center, 0, center center, 0.5, to(currentColor), to(transparent)),
@@ -1692,7 +1614,6 @@ GtkTextView {
 }
 
 .titlebar.header-bar .button.titlebutton {
-    background-color: transparent;
     border-image-width: 0;
     box-shadow: none;
 }
@@ -1700,7 +1621,6 @@ GtkTextView {
 .titlebar.header-bar .button.titlebutton:hover {
     border-image-width: 12px;
 }
-
 
 /***********
  * toolbar *
@@ -1886,10 +1806,6 @@ GtkTextView {
     icon-shadow: 0 1px shade (@bg_color, 1.16);
 }
 
-.inline-toolbar.toolbar .button *:insensitive,
-.inline-toolbar.toolbar GtkToolButton .button:insensitive {
-}
-
 /* Middle button */
 .inline-toolbar.toolbar .button,
 .inline-toolbar.toolbar .button:active,
@@ -1993,10 +1909,6 @@ GtkTextView {
     color: @tooltip_fg_color;
 }
 
-.tooltip * {
-    background-color: transparent;
-}
-
 /************
  * treeview *
  ************/
@@ -2072,7 +1984,6 @@ GtkViewport.frame {
     color: @fg_color;
 }
 
-
 .popover .menuitem:checked,
 .popover .menuitem.check,
 .popover .menuitem.check:checked,
@@ -2109,3 +2020,4 @@ GtkViewport.frame {
 
     color: @backdrop_selected_fg_color;
 }
+
