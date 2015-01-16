@@ -563,6 +563,10 @@ GtkIconView.view.cell:selected:focused {
     border-width: 1px;
 }
 
+GtkIconView.cell {
+    background-color: transparent;
+}
+
 /***********
  * infobar *
  ***********/
