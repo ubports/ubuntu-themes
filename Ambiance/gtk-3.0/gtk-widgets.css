@@ -247,29 +247,33 @@ GtkAssistant .sidebar {
 /******************
  * Linked Widgets *
  *****************/
-.linked .entry,
-.linked .button {
+.linked > .entry,
+.linked > .button,
+.linked > GtkComboBox > .button {
     border-radius: 0;
     border-image-width: 10px 0 10px 0;
     border-width: 1px 0 1px 0;
     box-shadow: inset -1px 0 shade (@bg_color, 0.84);
 }
 
-.linked .entry:first-child,
-.linked .button:first-child {
+.linked > .entry:first-child,
+.linked > .button:first-child,
+.linked > GtkComboBox:first-child > .button {
     border-image-width: 10px 0 10px 12px;
     border-radius: 8px 0 0 8px;
 }
 
-.linked .entry:last-child,
-.linked .button:last-child {
+.linked > .entry:last-child,
+.linked > .button:last-child,
+.linked > GtkComboBox:last-child > .button {
     border-image-width: 10px 12px 10px 0;
     border-radius: 0 8px 8px 0;
     box-shadow: none;
 }
 
-.linked .entry:only-child,
-.linked .button:only-child {
+.linked > .entry:only-child,
+.linked > .button:only-child,
+.linked > GtkComboBox:only-child > .button {
     border-image-width: 10px 12px 10px 12px;
     border-radius: 8px;
 }
