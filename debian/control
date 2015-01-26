@@ -34,7 +34,7 @@ Description: Light Themes (Ambiance and Radiance)
 Package: ubuntu-mono
 Architecture: all
 Multi-Arch: foreign
-Depends: gnome-icon-theme,
+Depends: adwaita-icon-theme,
          hicolor-icon-theme,
          humanity-icon-theme,
          ${misc:Depends},

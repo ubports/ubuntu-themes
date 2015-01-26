@@ -1,7 +1,7 @@
 [Icon Theme]
 Name=Ubuntu-Mono-Dark
 Comment=Smooth modern theme designed to be intuitive.
-Inherits=Humanity-Dark,gnome,hicolor
+Inherits=Humanity-Dark,Adwaita,hicolor
 
 Example=directory-x-normal
 

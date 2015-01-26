@@ -1,7 +1,7 @@
 [Icon Theme]
 Name=LoginIcons
 Comment=Special icons for the Ubuntu login experience
-Inherits=Humanity,gnome,hicolor
+Inherits=Humanity,Adwaita,hicolor
 
 Example=directory-x-normal
 
