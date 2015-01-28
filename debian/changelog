@@ -1,3 +1,11 @@
+ubuntu-themes (14.04+15.04.20150128-0ubuntu1) vivid; urgency=low
+
+  [ Lars Uebernickel ]
+  * Set and animate spinner icon for password entry in unity-greeter and
+    sound menu's playback item.
+
+ -- Ubuntu daily release <ps-jenkins@lists.canonical.com>  Wed, 28 Jan 2015 07:23:33 +0000
+
 ubuntu-themes (14.04+15.04.20150126.1-0ubuntu1) vivid; urgency=low
 
   [ Iain Lane ]
