@@ -1,3 +1,11 @@
+ubuntu-themes (14.04+15.04.20150212-0ubuntu1) vivid; urgency=medium
+
+  [ Matthieu James ]
+  * Added battery icons for more charge levels: 10%, 30%, 50%, 70% and
+    90%. (LP: #1388235)
+
+ -- CI Train Bot <ci-train-bot@canonical.com>  Thu, 12 Feb 2015 22:46:11 +0000
+
 ubuntu-themes (14.04+15.04.20150128-0ubuntu2) vivid; urgency=medium
 
   * Drop unnecessary and NBS libmagickcore5-extra build dep.
