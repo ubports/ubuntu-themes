@@ -1520,6 +1520,11 @@ GtkTextView {
     font: bold;
 }
 
+.titlebar.header-bar .subtitle {
+    font-size: smaller;
+    opacity: 0.5;
+}
+
 .titlebar.header-bar:backdrop {
     color: @backdrop_fg_color;
     background-image: none;
