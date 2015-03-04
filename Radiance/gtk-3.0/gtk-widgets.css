@@ -1488,7 +1488,7 @@ GtkTextView {
 }
 
 .header-bar {
-    padding: 2px;
+    padding: 2px 6px;
 }
 
 /*
