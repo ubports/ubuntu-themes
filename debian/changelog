@@ -1,3 +1,11 @@
+ubuntu-themes (14.04+15.04.20150319-0ubuntu1) vivid; urgency=medium
+
+  [ Lars Uebernickel ]
+  * Enhance header bar styling (LP: #1376565)
+  * Style overlay widgets needed by totem (LP: #1425155)
+
+ -- CI Train Bot <ci-train-bot@canonical.com>  Thu, 19 Mar 2015 12:00:38 +0000
+
 ubuntu-themes (14.04+15.04.20150212-0ubuntu1) vivid; urgency=medium
 
   [ Matthieu James ]
