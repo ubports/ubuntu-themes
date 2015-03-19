@@ -1488,7 +1488,7 @@ GtkTextView {
 }
 
 .header-bar {
-    padding: 2px;
+    padding: 2px 6px;
 }
 
 /*
@@ -1520,6 +1520,11 @@ GtkTextView {
     font: bold;
 }
 
+.titlebar.header-bar .subtitle {
+    font-size: smaller;
+    opacity: 0.5;
+}
+
 .titlebar.header-bar:backdrop {
     color: @backdrop_fg_color;
     background-image: none;
@@ -1534,13 +1539,46 @@ GtkTextView {
 }
 
 .titlebar.header-bar .button.titlebutton {
-    border-image-width: 0;
+    background-clip: padding-box;
+    border: 1px solid #383734;
+    color: #3d3c37;
+    icon-shadow: 0 1px rgba(255, 255, 255, 0.1);
+    border-radius: 9px;
+    padding: 0;
     box-shadow: none;
+    background-image: linear-gradient(to top, #5a5955, #75746d 50%, #8e8d88);
 }
 
-.titlebar.header-bar .button.titlebutton:hover {
-    border-image-width: 12px;
+.titlebar.header-bar .button.titlebutton.close {
+    color: #323112;
+    icon-shadow: 0 1px rgba(255, 255, 255, 0.25);
+    background-image: linear-gradient(to top, #de4c19, #e55e30 50%, #f58d6e);
 }
+
+.titlebar.header-bar .button.titlebutton.close:hover {
+    background-image: linear-gradient(to top, #e24f1b, #f17750 50%, #fba992);
+}
+
+.titlebar.header-bar .button.titlebutton:hover,
+.titlebar.header-bar .button.titlebutton:backdrop:hover {
+    background-image: linear-gradient(to top, #969696, #bdbdbd 50%, #cacaca);
+}
+
+.titlebar.header-bar .button.titlebutton:active {
+    icon-shadow: none;
+    background-image: linear-gradient(to top, #77766f, #74736c);
+}
+
+.titlebar.header-bar .button.titlebutton.close:active {
+    background-image: linear-gradient(to top, #ec6e44, #e76b41);
+}
+
+.titlebar.header-bar .button.titlebutton:backdrop {
+    color: #3d3c37;
+    icon-shadow: none;
+    background-image: linear-gradient(to top, #605f59, #5b5a54);
+}
+
 
 /***********
  * toolbar *
