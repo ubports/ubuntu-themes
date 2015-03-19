@@ -1924,6 +1924,45 @@ GtkViewport.frame {
     background: none;
 }
 
+
+/* OSD overlays */
+.osd,
+.osd:backdrop {
+    color: @osd_fg_color;
+    background-color: @osd_bg_color;
+    border-color: @osd_border_color;
+}
+
+.osd.toolbar {
+    padding: 12px;
+    border-radius: 8px;
+}
+
+.osd .button,
+.osd .button:backdrop {
+    color: @osd_fg_color;
+    background: none;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    transition: all 100ms ease-in-out;
+}
+
+.osd .button:hover {
+    color: lighter(@osd_fg_color);
+    icon-shadow: 0 0 3px @osd_fg_color;
+}
+
+.osd .button:active {
+    color: darker(@osd_fg_color);
+    icon-shadow: none;
+}
+
+.osd .scale {
+    margin-left: 9px;
+    margin-right: 9px;
+}
+
 /*****************************************************************************
  * states [please keep this section at the end of the file (CSS precedence)] *
  *****************************************************************************/
