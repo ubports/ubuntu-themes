@@ -4,7 +4,6 @@ Priority: optional
 Maintainer: Ubuntu Artwork Team <ubuntu-art@lists.ubuntu.com>
 Build-Depends: debhelper (>= 9),
                icon-naming-utils,
-               libmagickcore5-extra,
                python,
                python-rsvg,
                python-scour,
@@ -18,8 +17,8 @@ Vcs-Browser: https://bazaar.launchpad.net/~ubuntu-art-pkg/ubuntu-themes/trunk
 
 Package: light-themes
 Architecture: all
+Multi-Arch: foreign
 Depends: gtk2-engines-murrine (>= 0.90.3+git20100810),
-         gtk3-engines-unico (>= 1.0.1-0ubuntu2),
          humanity-icon-theme,
          ubuntu-mono,
          ${misc:Depends},
@@ -33,7 +32,8 @@ Description: Light Themes (Ambiance and Radiance)
 
 Package: ubuntu-mono
 Architecture: all
-Depends: gnome-icon-theme,
+Multi-Arch: foreign
+Depends: adwaita-icon-theme,
          hicolor-icon-theme,
          humanity-icon-theme,
          ${misc:Depends},
@@ -42,6 +42,7 @@ Description: Ubuntu Mono Icon theme
 
 Package: ubuntu-artwork
 Architecture: all
+Multi-Arch: foreign
 Depends: adium-theme-ubuntu,
          light-themes,
          ubuntu-mono,
@@ -53,6 +54,7 @@ Description: Ubuntu themes and artwork
 
 Package: ubuntu-mobile-icons
 Architecture: all
+Multi-Arch: foreign
 Depends: hicolor-icon-theme,
          ${misc:Depends},
 Provides: ubuntu-mobile,
@@ -63,6 +65,7 @@ Description: Ubuntu Mobile Icon theme
 
 Package: suru-icon-theme
 Architecture: all
+Multi-Arch: foreign
 Depends: ubuntu-mobile-icons,
          hicolor-icon-theme,
          ${misc:Depends},
