@@ -62,6 +62,11 @@
     color: @backdrop_fg_color;
 }
 
+/* LP: #1285783 */
+GtkScrolledWindow {
+    background-color: @bg_color;
+}
+
 GtkPaned {
     background-color: @bg_color;
 }
