@@ -63,7 +63,7 @@
 }
 
 /* LP: #1285783 */
-GtkStack {
+GtkScrolledWindow {
     background-color: @bg_color;
 }
 
