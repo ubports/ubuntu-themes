@@ -76,3 +76,19 @@
     -gtk-icon-source: -gtk-icontheme("process-working-symbolic");
     animation: dashentry_spinner 1s infinite linear;
 }
+
+.lightdm.option-button {
+    padding: 2px;
+    background: none;
+    border: 0;
+}
+
+.lightdm.toggle-button {
+    background: none;
+    border-width: 0;
+}
+
+.lightdm.toggle-button.selected {
+    background-color: alpha (black, 0.3);
+    border-width: 1px;
+}
