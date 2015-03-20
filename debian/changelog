@@ -1,3 +1,25 @@
+ubuntu-themes (14.04+15.04.20150320-0ubuntu1) vivid; urgency=medium
+
+  [ Alberts Muktupāvels ]
+  * Add some style info for unity-greeter buttons. (LP: #1423542) (LP:
+    #1423542)
+
+  [ Iain Lane ]
+  * Style geary's compose view to get a background with overlay-
+    scrollbars added: Ambiance/gtk-3.0/apps/geary.css Radiance/gtk-
+    3.0/apps/geary.css
+  * Theme software-center's action bar so it gets a background. added:
+    Ambiance/gtk-3.0/apps/software-center.css Radiance/gtk-
+    3.0/apps/software-center.css
+
+  [ Lars Uebernickel ]
+  * Radiance: fix radio mark coloring in menus
+
+  [ William Hua ]
+  * Set the background on GtkStack widgets. (LP: #1285783)
+
+ -- CI Train Bot <ci-train-bot@canonical.com>  Fri, 20 Mar 2015 18:07:14 +0000
+
 ubuntu-themes (14.04+15.04.20150319-0ubuntu1) vivid; urgency=medium
 
   [ Lars Uebernickel ]
