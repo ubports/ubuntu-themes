@@ -1,3 +1,12 @@
+ubuntu-themes (14.04+15.04.20150331-0ubuntu1) vivid; urgency=medium
+
+  [ Charles Kerr ]
+  * Copy the suru display-brightness-min and -max icons to ubuntu-mobile
+    where qmenumodel and QIcon::hasThemeIcon() can find them. (LP:
+    #1289465)
+
+ -- CI Train Bot <ci-train-bot@canonical.com>  Tue, 31 Mar 2015 20:25:10 +0000
+
 ubuntu-themes (14.04+15.04.20150320-0ubuntu1) vivid; urgency=medium
 
   [ Alberts Muktupāvels ]
