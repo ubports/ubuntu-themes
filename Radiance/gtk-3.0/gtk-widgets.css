@@ -533,6 +533,12 @@ GdMainIconView.content-view {
     border: none;
 }
 
+.window-frame.csd.popup {
+    border-style: none;
+    border-radius: 0;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+
 /************
  * iconview *
  ************/
