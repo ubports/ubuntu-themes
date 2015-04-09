@@ -537,7 +537,7 @@ GdMainIconView.content-view {
  * window-frame *
  ****************/
 
-.window-frame.csd .popup {
+.window-frame.csd.popup {
     border-style: none;
     border-radius: 0;
     box-shadow: 0 3px 8px @shadow_color;
