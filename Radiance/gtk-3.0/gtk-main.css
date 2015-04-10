@@ -8,7 +8,13 @@
 @define-color tooltip_bg_color #000000;
 @define-color tooltip_fg_color #ffffff;
 
-/* misc colors used by gtk+ */
+/* misc colors used by gtk+
+ *
+ * Gtk doesn't currently expand color variables for style properties. Thus,
+ * gtk-widgets.css uses literal color names, but includes a comment containing
+ * the name of the variable. Please remember to change values there as well
+ * when changing one of the variables below.
+ */
 @define-color info_fg_color rgb (181, 171, 156);
 @define-color info_bg_color rgb (252, 252, 189);
 @define-color warning_fg_color rgb (173, 120, 41);
