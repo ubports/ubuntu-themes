@@ -1,3 +1,13 @@
+ubuntu-themes (14.04+15.04.20150410-0ubuntu1) vivid; urgency=medium
+
+  [ Iain Lane ]
+  * Draw shadows for menus - thanks to Simon Steinbeiß (LP: #1441975)
+
+  [ Lars Uebernickel ]
+  * Don't use symbolic colors for style (LP: #1436428)
+
+ -- CI Train Bot <ci-train-bot@canonical.com>  Fri, 10 Apr 2015 10:57:50 +0000
+
 ubuntu-themes (14.04+15.04.20150331-0ubuntu1) vivid; urgency=medium
 
   [ Charles Kerr ]
