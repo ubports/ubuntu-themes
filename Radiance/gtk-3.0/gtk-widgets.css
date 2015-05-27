@@ -2030,3 +2030,7 @@ GtkViewport.frame {
     color: @backdrop_selected_fg_color;
 }
 
+*:link,
+*:visited {
+    color: #f07746; /* @link_color */
+}
