@@ -1,3 +1,11 @@
+ubuntu-themes (14.04+15.10.20150529-0ubuntu1) wily; urgency=medium
+
+  [ Lars Uebernickel ]
+  * Set :link color
+  * Style under- and overshoot
+
+ -- CI Train Bot <ci-train-bot@canonical.com>  Fri, 29 May 2015 09:06:32 +0000
+
 ubuntu-themes (14.04+15.04.20150410-0ubuntu1) vivid; urgency=medium
 
   [ Iain Lane ]
