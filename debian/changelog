@@ -1,3 +1,14 @@
+ubuntu-themes (14.04+15.10.20150603.1-0ubuntu1) wily; urgency=medium
+
+  [ CI Train Bot ]
+  * New rebuild forced.
+
+  [ Charles Kerr ]
+  * cherrypick the new  messages-new.svg suru icon from
+    lp:~tiheum/ubuntu-themes/suru-app-icons-v2 (LP: #1450894)
+
+ -- CI Train Bot <ci-train-bot@canonical.com>  Wed, 03 Jun 2015 21:41:43 +0000
+
 ubuntu-themes (14.04+15.10.20150529-0ubuntu1) wily; urgency=medium
 
   [ Lars Uebernickel ]
