@@ -60,48 +60,6 @@
 
 .background:backdrop {
     color: @backdrop_fg_color;
-}
-
-/* LP: #1285783 */
-GtkScrolledWindow {
-    background-color: @bg_color;
-}
-
-GtkPaned {
-    background-color: @bg_color;
-}
-
-/* Background hack to make DejaDup Assistant windows not turn black when
- * overlay scrollbars are enabled.
- */
-Assistant GtkEventBox {
-    background-color: @bg_color;
-}
-
-/* ... and for Evolution's mail preferences window */
-EPreferencesWindow GtkNotebook GtkAlignment GtkVBox {
-    background-color: @bg_color;
-}
-
-/*************
- * assistant *
- *************/
-GtkAssistant .sidebar .highlight {
-    color: @fg_color;
-    font: bold;
-}
-
-GtkAssistant .sidebar {
-    background-color: shade (@bg_color, 0.97);
-    border-right-color: shade (@bg_color, 0.8);
-    border-radius: 0;
-    border-style: solid;
-    border-width: 0 1px 0 0;
-    padding: 12px;
-
-    color: mix (@fg_color, @bg_color, 0.40);
-    text-shadow: 0 1px shade (@bg_color, 1.04);
-
     box-shadow: inset -1px 0 shade (@bg_color, 0.94);
 }
 
@@ -1227,26 +1185,6 @@ GtkScale.mark {
                 inset -1px 0 shade (@bg_color, 1.1),
                 inset 0 1px shade (@bg_color, 1.1),
                 inset 0 -1px shade (@bg_color, 1.01);
-}
-
-/* overlay scrollbar */
-OsThumb {
-    color: shade (@fg_color, 1.6);
-}
-
-OsThumb:selected,
-GtkScrollbar:selected {
-    background-color: @selected_bg_color;
-}
-
-OsThumb:active,
-GtkScrollbar:active {
-    background-color: shade (@bg_color, 0.6);
-}
-
-OsThumb:insensitive,
-GtkScrollbar:insensitive {
-    background-color: shade (@bg_color, 0.85);
 }
 
 /*******************
