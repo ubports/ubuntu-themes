@@ -1,3 +1,13 @@
+ubuntu-themes (14.04+15.10.20150706-0ubuntu1) wily; urgency=medium
+
+  [ Matthieu James ]
+  * Updated the app icons to their new version (flatter and refreshed
+    graphic style) and added a new icon for Dekko email client. Changed
+    the colour of the 'new message' indicator to green (LP: #1457424,
+    #1450894)
+
+ -- CI Train Bot <ci-train-bot@canonical.com>  Mon, 06 Jul 2015 13:51:49 +0000
+
 ubuntu-themes (14.04+15.10.20150603.1-0ubuntu1) wily; urgency=medium
 
   [ CI Train Bot ]
