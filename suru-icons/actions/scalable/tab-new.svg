@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="90"
-   height="90"
+   width="96"
+   height="96"
    id="svg4874"
    version="1.1"
-   inkscape:version="0.48+devel r"
-   viewBox="0 0 90 90.000001"
-   sodipodi:docname="new-tab.svg">
+   inkscape:version="0.91+devel r"
+   viewBox="0 0 96 96.000001"
+   sodipodi:docname="tab-new.svg">
   <defs
      id="defs4876" />
   <sodipodi:namedview
@@ -25,11 +25,11 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.0931703"
-     inkscape:cx="-20.920175"
-     inkscape:cy="27.664498"
+     inkscape:zoom="3.5967995"
+     inkscape:cx="21.769344"
+     inkscape:cy="17.501635"
      inkscape:document-units="px"
-     inkscape:current-layer="g4845"
+     inkscape:current-layer="g4780"
      showgrid="true"
      showborder="true"
      fit-margin-top="0"
@@ -49,59 +49,60 @@
      inkscape:snap-object-midpoints="true"
      inkscape:snap-center="true"
      showguides="true"
-     inkscape:guide-bbox="true">
+     inkscape:guide-bbox="true"
+     inkscape:snap-global="true">
     <inkscape:grid
        type="xygrid"
        id="grid5451"
-       empspacing="6" />
+       empspacing="8" />
     <sodipodi:guide
        orientation="1,0"
-       position="6,77"
+       position="8,-8.0000001"
        id="guide4063" />
     <sodipodi:guide
        orientation="1,0"
-       position="3,78"
+       position="4,-8.0000001"
        id="guide4065" />
     <sodipodi:guide
        orientation="0,1"
-       position="55,84"
+       position="-8,88.000001"
        id="guide4067" />
     <sodipodi:guide
        orientation="0,1"
-       position="53,87"
+       position="-8,92.000001"
        id="guide4069" />
     <sodipodi:guide
        orientation="0,1"
-       position="20,3"
+       position="104,4"
        id="guide4071" />
     <sodipodi:guide
        orientation="0,1"
-       position="20,6"
+       position="-5,8.0000001"
        id="guide4073" />
     <sodipodi:guide
        orientation="1,0"
-       position="87,7"
-       id="guide4075" />
-    <sodipodi:guide
-       orientation="1,0"
-       position="84,7"
+       position="88,-8.0000001"
        id="guide4077" />
     <sodipodi:guide
        orientation="0,1"
-       position="58,81"
+       position="-8,84.000001"
        id="guide4074" />
     <sodipodi:guide
        orientation="1,0"
-       position="9,74"
+       position="12,-8.0000001"
        id="guide4076" />
     <sodipodi:guide
-       orientation="0,1"
-       position="21,9"
-       id="guide4078" />
-    <sodipodi:guide
        orientation="1,0"
-       position="81,4"
+       position="84,-8.0000001"
        id="guide4080" />
+    <sodipodi:guide
+       position="-8,48"
+       orientation="0,1"
+       id="guide4172" />
+    <sodipodi:guide
+       position="92,-8.0000001"
+       orientation="1,0"
+       id="guide4760" />
   </sodipodi:namedview>
   <metadata
      id="metadata4879">
@@ -119,46 +120,56 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(67.857146,-84.50504)">
+     transform="translate(67.857146,-78.50504)">
     <g
        transform="matrix(0,-1,-1,0,373.50506,516.50504)"
        id="g4845"
        style="display:inline">
       <g
-         id="g4117">
-        <rect
-           transform="matrix(0,-1,-1,0,0,0)"
-           y="-432"
-           x="-441.36221"
-           height="90"
-           width="90"
-           id="rect4674"
-           style="opacity:0.21171169;fill:none;stroke:none" />
-        <path
-           sodipodi:nodetypes="sssssssss"
-           inkscape:connector-curvature="0"
-           id="path4676"
-           d="m 419.99995,425.36221 c 0,6.66666 -5.1e-4,10 -7.75195,10 l -18.4961,0 c -7.75145,0 -7.75195,-3.33334 -7.75195,-10 l 0,-28 c 0,-6.66668 5e-4,-10 7.75195,-10 l 18.4961,0 c 7.75144,0 7.75195,3.33332 7.75195,10 z"
-           style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#808080;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path4678"
-           d="m 396.00002,441.36221 0,-60 -12.00007,0 0,60 12.00007,0 z"
-           style="font-size:15px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;fill:#808080;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu" />
-        <path
-           style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-           d="m 382.49995,375.36221 1.50004,-6 -41.99997,0 0,6 z"
-           id="path4680"
-           inkscape:connector-curvature="0"
-           sodipodi:nodetypes="ccccc" />
-        <rect
-           transform="scale(-1,1)"
-           style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.5;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-           id="rect4682"
-           width="5.9999876"
-           height="42"
-           x="-366"
-           y="351.36221" />
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="next01.png"
+         transform="matrix(-0.9996045,0,0,1,575.94296,-611.00001)"
+         id="g4778"
+         inkscape:label="Layer 1">
+        <g
+           transform="matrix(-1,0,0,1,575.99999,611)"
+           id="g4780"
+           style="display:inline">
+          <rect
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:4;marker:none;enable-background:accumulate"
+             id="rect4782"
+             width="96.037987"
+             height="96"
+             x="-438.00244"
+             y="345.36221"
+             transform="scale(-1,1)" />
+          <path
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.5;marker:none;enable-background:accumulate"
+             d="m 384.98148,371.3622 1.0004,-3.99998 -40.01574,0 0,3.99998 z"
+             id="rect3470"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ccccc" />
+          <rect
+             transform="scale(-1,1)"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:7.5;marker:none;enable-background:accumulate"
+             id="rect3472"
+             width="4.0014911"
+             height="40.000053"
+             x="-367.97476"
+             y="349.36221" />
+          <path
+             sodipodi:nodetypes="sssssssss"
+             inkscape:connector-curvature="0"
+             id="path4676"
+             d="m 425.99768,425.36222 c 0,6.66666 -5.1e-4,10 -7.75502,10 l -18.50341,0 c -7.75452,0 -7.75502,-3.33334 -7.75502,-10 l 0,-28 c 0,-6.66668 5e-4,-10 7.75502,-10 l 18.50341,0 c 7.75451,0 7.75502,3.33332 7.75502,10 z"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#808080;fill-opacity:1;stroke:none" />
+          <path
+             inkscape:connector-curvature="0"
+             id="path4678"
+             d="m 401.98826,441.36222 0,-60 -12.00482,0 0,60 12.00482,0 z"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#808080;fill-opacity:1;stroke:none" />
+        </g>
       </g>
     </g>
   </g>

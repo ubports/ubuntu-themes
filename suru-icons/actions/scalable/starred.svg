@@ -9,15 +9,15 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="90"
-   height="90.000008"
-   id="svg4829"
+   width="96"
+   height="96"
+   id="svg4874"
    version="1.1"
-   inkscape:version="0.48+devel r12833"
-   viewBox="0 0 90 90.000009"
-   sodipodi:docname="star-selected.svg">
+   inkscape:version="0.91+devel r"
+   viewBox="0 0 96 96.000001"
+   sodipodi:docname="starred.svg">
   <defs
-     id="defs4831" />
+     id="defs4876" />
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -25,18 +25,17 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="9.9475979"
-     inkscape:cx="57.042061"
-     inkscape:cy="48.024805"
+     inkscape:zoom="5.6199993"
+     inkscape:cx="-4.3416438"
+     inkscape:cy="69.76867"
      inkscape:document-units="px"
-     inkscape:current-layer="g4976"
+     inkscape:current-layer="g4780"
      showgrid="true"
+     showborder="true"
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     showguides="true"
-     inkscape:guide-bbox="true"
      inkscape:snap-bbox="true"
      inkscape:bbox-paths="true"
      inkscape:bbox-nodes="true"
@@ -48,62 +47,69 @@
      inkscape:snap-smooth-nodes="true"
      inkscape:snap-midpoints="true"
      inkscape:snap-object-midpoints="true"
-     inkscape:snap-center="true">
+     inkscape:snap-center="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-global="true">
     <inkscape:grid
        type="xygrid"
-       id="grid5163"
-       empspacing="6" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="48,87"
-       id="guide4064" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="51,84"
-       id="guide4066" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="53,81"
-       id="guide4068" />
+       id="grid5451"
+       empspacing="8" />
     <sodipodi:guide
        orientation="1,0"
-       position="3,68"
-       id="guide4070" />
+       position="8,-8.0000001"
+       id="guide4063" />
     <sodipodi:guide
        orientation="1,0"
-       position="6,64"
-       id="guide4072" />
+       position="4,-8.0000001"
+       id="guide4065" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-8,88.000001"
+       id="guide4067" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-8,92.000001"
+       id="guide4069" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="104,4"
+       id="guide4071" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-5,8.0000001"
+       id="guide4073" />
     <sodipodi:guide
        orientation="1,0"
-       position="9,63"
+       position="88,-8.0000001"
+       id="guide4077" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="-8,84.000001"
        id="guide4074" />
     <sodipodi:guide
-       orientation="0,1"
-       position="38,3"
+       orientation="1,0"
+       position="12,-8.0000001"
        id="guide4076" />
     <sodipodi:guide
-       orientation="0,1"
-       position="40,6"
-       id="guide4078" />
-    <sodipodi:guide
-       orientation="0,1"
-       position="43,9"
+       orientation="1,0"
+       position="84,-8.0000001"
        id="guide4080" />
     <sodipodi:guide
+       position="48,-8.0000001"
        orientation="1,0"
-       position="87,9"
-       id="guide4082" />
+       id="guide4170" />
     <sodipodi:guide
-       orientation="1,0"
-       position="84,9"
-       id="guide4084" />
+       position="-8,48"
+       orientation="0,1"
+       id="guide4172" />
     <sodipodi:guide
+       position="92,-8.0000001"
        orientation="1,0"
-       position="81,10"
-       id="guide4086" />
+       id="guide4760" />
   </sodipodi:namedview>
   <metadata
-     id="metadata4834">
+     id="metadata4879">
     <rdf:RDF>
       <cc:Work
          rdf:about="">
@@ -118,28 +124,36 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-193.35488,-375.71469)">
+     transform="translate(67.857146,-78.50504)">
     <g
-       transform="translate(25.354884,-2350.6475)"
-       id="g4976">
-      <path
-         style="color:#000000;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
-         d="m 212.97374,2732.3678 c -0.006,0.01 0.004,0.028 0,0.028 l -0.0289,0 c -6.06434,8.6931 -11.00559,17.5123 -14.44915,24.1687 -7.4589,1.1033 -17.08371,2.8713 -26.49009,5.629 -0.005,0.014 -0.009,0.027 0,0.028 -0.005,0.014 0.029,0 0.029,0 0.0113,0.011 0,0.027 0,0.028 6.17855,8.5123 12.84442,16.0157 17.9889,21.4417 -1.0963,7.4214 -2.17173,16.983 -2.26313,26.6642 0.0114,0.01 0.0284,1e-4 0.0291,0 0.0114,0.01 0.0281,3e-4 0.029,0 9.79175,-3.3888 18.75849,-7.5009 25.41657,-10.8224 6.76712,3.4172 15.77373,7.5625 25.18445,10.7643 0.008,-0.01 0.032,0.01 0.0289,0 0.008,-0.01 2.9e-4,-0.027 0,-0.028 0.008,-0.01 2.9e-4,-0.028 0,-0.028 -0.14989,-10.2144 -1.20841,-19.8583 -2.26311,-27.1864 5.27157,-5.4685 11.95263,-12.9142 17.81481,-21.0064 -0.002,-0.01 -0.0189,0 -0.0289,0 -0.0106,7e-4 -0.0278,-0.028 -0.0291,-0.028 -9.78134,-2.8584 -19.29911,-4.7097 -26.60615,-5.8608 -3.50737,-6.7704 -8.47136,-15.566 -14.33309,-23.7918 -0.006,-1e-4 -0.0246,-0.01 -0.029,-1e-4 z"
-         id="path2194-8"
-         inkscape:connector-curvature="0"
-         sodipodi:nodetypes="cscccccccccccccccccccccc" />
+       transform="matrix(0,-1,-1,0,373.50506,516.50504)"
+       id="g4845"
+       style="display:inline">
       <g
-         id="g4143-4-6"
-         transform="matrix(1.875,0,0,1.8750002,-372,933.18287)"
-         style="display:inline">
-        <rect
-           transform="translate(0,804.3622)"
-           y="152"
-           x="288"
-           height="48"
-           width="48"
-           id="rect4145-0-9"
-           style="opacity:0.21171169;fill:none;stroke:none" />
+         inkscape:export-ydpi="90"
+         inkscape:export-xdpi="90"
+         inkscape:export-filename="next01.png"
+         transform="matrix(-0.9996045,0,0,1,575.94296,-611.00001)"
+         id="g4778"
+         inkscape:label="Layer 1">
+        <g
+           transform="matrix(-1,0,0,1,575.99999,611)"
+           id="g4780"
+           style="display:inline">
+          <rect
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:4;marker:none;enable-background:accumulate"
+             id="rect4782"
+             width="96.037987"
+             height="96"
+             x="-438.00244"
+             y="345.36221"
+             transform="scale(-1,1)" />
+          <path
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;marker:none;enable-background:accumulate"
+             d="m 429.99929,393.33773 c 0,0.004 -9.5e-4,0.007 -0.007,0.009 -0.001,0.007 -0.006,0.007 -0.009,0.009 -0.003,0.006 -0.008,0.008 -0.011,0.009 -0.003,0.006 -0.003,0.006 -0.007,0.009 -10.86428,5.06033 -21.9364,8.97057 -28.72087,11.19382 -0.006,7.31383 -0.28348,19.36 -1.77427,30.84126 -0.004,0.001 -0.006,0.002 -0.009,-0.002 -0.007,10e-4 -0.01,-0.004 -0.0129,-0.007 -0.007,-0.001 -0.009,-0.004 -0.011,-0.007 -0.007,-0.001 -0.006,-0.002 -0.009,-0.004 -8.17196,-8.76466 -15.31373,-18.08322 -19.52571,-23.8462 -6.9601,2.25521 -18.50812,5.71446 -29.89293,7.84517 -0.002,-0.003 -0.003,-0.004 0,-0.009 -0.003,-0.006 0.001,-0.01 0.002,-0.0129 -0.001,-0.007 0.001,-0.011 0.002,-0.0129 -0.001,-0.007 -0.001,-0.008 0,-0.011 5.81401,-10.47791 12.47128,-20.14765 16.65275,-25.93264 -4.29657,-5.92015 -11.1555,-15.83137 -16.70025,-25.99521 0.002,-0.003 0.006,-0.003 0.0111,-0.002 0.004,-0.004 0.01,-0.002 0.0129,-0.002 0.006,-0.003 0.011,-0.002 0.0129,-0.002 0.006,-0.003 0.007,-0.004 0.0111,-0.004 11.76574,2.28943 23.02338,5.63169 29.81955,7.81927 4.30503,-5.9142 11.61263,-15.49511 19.56888,-23.90661 0.003,0.001 0.006,0.003 0.007,0.009 0.006,0.003 0.006,0.008 0.007,0.011 0.004,0.004 0.006,0.0112 0.007,0.0129 0.004,0.004 0.007,0.004 0.009,0.009 1.4575,11.89244 1.75546,23.62651 1.77428,30.76358 6.95749,2.26527 18.3316,6.25356 28.7921,11.21756 z"
+             id="path4170"
+             inkscape:connector-curvature="0" />
+        </g>
       </g>
     </g>
   </g>
