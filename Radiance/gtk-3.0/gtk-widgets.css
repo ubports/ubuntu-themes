@@ -1970,6 +1970,15 @@ GtkViewport.frame {
     background: none;
 }
 
+/* Floating bars */
+.floating-bar {
+    background-color: @info_bg_color;
+    border-radius: 3px 3px 0 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darker (@info_bg_color);
+}
+
 
 /* OSD overlays */
 .osd,

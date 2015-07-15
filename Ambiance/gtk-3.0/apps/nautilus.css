@@ -92,19 +92,6 @@ NautilusSearchBar .entry {
     color: @dark_fg_color;
 }
 
-NautilusFloatingBar {
-    background-color: @info_bg_color;
-    border-radius: 3px 3px 0 0;
-    border-style: solid;
-    border-width: 1px;
-    border-color: darker (@info_bg_color);
-}
-
-NautilusFloatingBar .button {
-    -GtkButton-image-spacing: 0;
-    -GtkButton-inner-border: 0;
-}
-
 /* sidebar */
 NautilusWindow .sidebar,
 NautilusWindow .sidebar .view {
