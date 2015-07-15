@@ -87,11 +87,6 @@ NautilusSearchBar .entry {
     text-shadow: 0 1px shade (@cluebar_color, 1.02);
 }
 
-#nautilus-search-button *:active,
-#nautilus-search-button *:active:prelight {
-    color: @dark_fg_color;
-}
-
 /* sidebar */
 NautilusWindow .sidebar,
 NautilusWindow .sidebar .view {
