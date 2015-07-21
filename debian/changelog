@@ -1,3 +1,13 @@
+ubuntu-themes (14.04+15.10.20150721-0ubuntu1) wily; urgency=medium
+
+  [ Lars Uebernickel ]
+  * Clean up nautilus theming. Mostly, this consists of moving from
+    nautilus-specific widgets and classes to more generic gtk ones. (LP:
+    #1463848)
+  * Theme GTK overlay-scrollbars to be more ubuntu-ish
+
+ -- CI Train Bot <ci-train-bot@canonical.com>  Tue, 21 Jul 2015 09:53:27 +0000
+
 ubuntu-themes (14.04+15.10.20150707-0ubuntu1) wily; urgency=medium
 
   [ Matthieu James ]
