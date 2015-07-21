@@ -1273,12 +1273,31 @@ GtkComboBox .menuitem.separator {
 /***********
  * sidebar *
  ***********/
-.sidebar row:selected {
+GtkPlacesSidebar.sidebar .view {
+    background-color: shade (@bg_color, 0.95);
+
+    color: @fg_color;
+    text-shadow: 0 1px shade (shade (@bg_color, 0.95), 1.04);
+}
+
+GtkPlacesSidebar.sidebar:backdrop {
+    color: mix (@fg_color, shade (@bg_color, 0.95), 0.2);
+    text-shadow: 0 1px shade (shade (@bg_color, 0.95), 1.02);
+}
+
+GtkPlacesSidebar.sidebar row:selected {
+    color: @selected_fg_color;
     text-shadow: 0 1px shade (@selected_bg_color, 0.7);
 }
 
-.sidebar .frame {
-    border-width: 0;
+GtkPlacesSidebar.sidebar row:selected:backdrop {
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (shade (@bg_color, 0.95), 0.94)),
+                                     to (shade (shade (@bg_color, 0.95), 0.86)));
+    border-top-color: shade (shade (@bg_color, 0.95), 0.88);
+
+    color: @fg_color;
+    text-shadow: 0 1px shade (shade (@bg_color, 0.95), 0.96);
 }
 
 /**************
@@ -1585,6 +1604,7 @@ GtkTextView {
     color: @dark_fg_color;
     text-shadow: 0 -1px shade (@dark_bg_color, 0.7);
     border-image-source: url("assets/radiance-button-toolbar.png");
+    padding: 9px;
 }
 
 .primary-toolbar .button.flat {
@@ -1900,6 +1920,15 @@ GtkViewport.frame {
 .popover .menuitem *:insensitive {
     text-shadow: none;
     background: none;
+}
+
+/* Floating bars */
+.floating-bar {
+    background-color: @info_bg_color;
+    border-radius: 3px 3px 0 0;
+    border-style: solid;
+    border-width: 1px;
+    border-color: darker (@info_bg_color);
 }
 
 
