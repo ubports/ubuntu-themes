@@ -1,3 +1,16 @@
+ubuntu-themes (14.04+15.10.20150813-0ubuntu1) wily; urgency=medium
+
+  [ CI Train Bot ]
+  * New rebuild forced.
+
+  [ Matthieu James ]
+  * This update include a few bug fixes that we chased during our design
+    team bug sprint in August 2015: essentially a bunch of new mono
+    icons and updated existing designs. (LP: #1367137, #1478025,
+    #1294251, #1424819, #1431876)
+
+ -- CI Train Bot <ci-train-bot@canonical.com>  Thu, 13 Aug 2015 15:06:02 +0000
+
 ubuntu-themes (14.04+15.10.20150721-0ubuntu1) wily; urgency=medium
 
   [ Lars Uebernickel ]
