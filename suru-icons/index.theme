@@ -1,9 +1,9 @@
 [Icon Theme]
 Name=Suru
 Comment=Ubuntu Touch icon theme
-Inherits=ubuntu-mobile,hicolor
+Inherits=Humanity,ubuntu-mobile,hicolor,gnome
 
-Directories=actions/scalable,apps/128,apps/256,apps/512,apps/scalable,devices/scalable,mimetypes/scalable,status/128,status/256,status/512,status/scalable
+Directories=actions/scalable,apps/128,apps/256,apps/512,apps/scalable,devices/scalable,mimetypes/scalable,places/48,places/128,places/256,places/512,places/scalable,status/128,status/256,status/512,status/scalable
 
 [actions/scalable]
 MinSize=9
@@ -46,6 +46,33 @@ MinSize=9
 Size=90
 MaxSize=512
 Context=Mimetypes
+Type=Scalable
+
+[places/48]
+Size=48
+Context=Places
+Type=Fixed
+
+[places/128]
+Size=128
+Context=Places
+Type=Fixed
+
+[places/256]
+Size=256
+Context=Places
+Type=Fixed
+
+[places/512]
+Size=512
+Context=Places
+Type=Fixed
+
+[places/scalable]
+MinSize=9
+Size=90
+MaxSize=512
+Context=Places
 Type=Scalable
 
 [status/128]
