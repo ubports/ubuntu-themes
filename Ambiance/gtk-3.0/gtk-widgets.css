@@ -1158,12 +1158,6 @@ GtkScale.mark {
    background-color: @backdrop_selected_bg_color;
 }
 
-.scrollbar.slider.hovering,
-.scrollbar.slider.dragging {
-    border-radius: 2px;
-    margin: 0;
-}
-
 /* Adding margins, so actual visible size is: -GtkRange-slider-width - margin
  * this allows to keep the slider smaller, but keeping few threshold pixels
  */
@@ -1182,6 +1176,17 @@ GtkScale.mark {
    margin-top: 2px;
 }
 
+.scrollbar.slider {
+    background-color: alpha(@selected_bg_color, 0.8);
+    border-radius: 1px;
+}
+
+.scrollbar.slider.hovering,
+.scrollbar.slider.dragging {
+    border-radius: 2px;
+    margin: 0;
+}
+
 /* Adding margins, so actual visible size is: -GtkRange-slider-width - margin
  * this allows to define some kind of proximity effect also on mouse-enter
  */
@@ -1195,11 +1200,6 @@ GtkScale.mark {
 
 .scrollbar.slider.horizontal:not(.hovering):not(.dragging) {
    margin-top: 7px;
-}
-
-.scrollbar.slider {
-    background-color: alpha(@selected_bg_color, 0.8);
-    border-radius: 1px;
 }
 
 .scrollbar.slider:hover {
