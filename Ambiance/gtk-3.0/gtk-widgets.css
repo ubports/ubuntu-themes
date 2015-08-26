@@ -983,7 +983,7 @@ GtkProgressBar {
     border-radius: 8px;
     border-width: 0px;
     background-image: none;
-    background-color: #b0b0b0;
+    background-color: @backdrop_filling_bg;
 }
 
 .scale.highlight.left:insensitive {
@@ -1050,8 +1050,8 @@ GtkLevelBar.vertical {
 .level-bar.fill-block:backdrop,
 .level-bar.fill-block.level-high:backdrop,
 .level-bar.fill-block.level-low:backdrop {
-    background-color: #b0b0b0;
-    border-color: #b0b0b0;
+    background-color: @backdrop_filling_bg;
+    border-color: @backdrop_filling_bg;
     background-image: none;
 }
 
@@ -1142,7 +1142,7 @@ GtkScale.mark {
     -GtkScrollbar-min-slider-length: 31;
     -GtkRange-slider-width: 10;
 
-    background-image: none;
+   background-image: none;
     background-size: 0;
     border: none;
     border-radius: 0;
