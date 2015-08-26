@@ -1162,7 +1162,7 @@ GtkScale.mark {
     -GtkScrollbar-has-forward-stepper: 0;
     -GtkScrollbar-trough-border: 0;
     -GtkScrollbar-min-slider-length: 31;
-    -GtkRange-slider-width: 3;
+    -GtkRange-slider-width: 8;
 
     background-image: none;
     background-size: 0;
@@ -1172,13 +1172,28 @@ GtkScale.mark {
 
 .scrollbar.hovering,
 .scrollbar.dragging {
-    -GtkRange-slider-width: 8;
-    background-color: @scrollbar_track_color;
+   background-color: @scrollbar_track_color;
 }
 
 .scrollbar.slider.hovering,
 .scrollbar.slider.dragging {
     border-radius: 2px;
+    margin: 0;
+}
+
+/* Adding margins, so actual visible size is: -GtkRange-slider-width - margin
+ * this allows to define some kind of proximity effect also on mouse-enter
+ */
+.scrollbar.slider.vertical:dir(ltr):not(.hovering):not(.dragging) {
+   margin-left: 5px;
+}
+
+.scrollbar.slider.vertical:dir(rtl):not(.hovering):not(.dragging) {
+   margin-right: 5px;
+}
+
+.scrollbar.slider.horizontal:not(.hovering):not(.dragging) {
+   margin-top: 5px;
 }
 
 .scrollbar.slider {
