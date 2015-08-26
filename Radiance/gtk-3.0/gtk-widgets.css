@@ -1164,6 +1164,8 @@ GtkScale.mark {
     -GtkScrollbar-min-slider-length: 31;
     -GtkRange-slider-width: 3;
 
+    background-image: none;
+    background-size: 0;
     border: none;
 }
 
