@@ -1175,6 +1175,11 @@ GtkScale.mark {
    background-color: @scrollbar_track_color;
 }
 
+.scrollbar.hovering:backdrop,
+.scrollbar.dragging:backdrop {
+   background-color: @backdrop_selected_bg_color;
+}
+
 .scrollbar.slider.hovering,
 .scrollbar.slider.dragging {
     border-radius: 2px;
@@ -1225,6 +1230,18 @@ GtkScale.mark {
 
 .scrollbar.slider:active {
     background-color: @selected_bg_color;
+}
+
+.scrollbar.slider:backdrop {
+    background-color: alpha(@backdrop_filling_bg, 0.8);
+}
+
+.scrollbar.slider:backdrop {
+    background-color: alpha(@backdrop_filling_bg, 0.85);
+}
+
+.scrollbar.slider:backdrop {
+    background-color: @backdrop_filling_bg;
 }
 
 /*******************
