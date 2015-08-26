@@ -1164,6 +1164,10 @@ GtkScale.mark {
     border-radius: 1px;
 }
 
+.scrollbar.slider:hover {
+    background-color: alpha(@selected_bg_color, 0.85);
+}
+
 .scrollbar.slider:active {
     background-color: @selected_bg_color;
 }
