@@ -1955,11 +1955,23 @@ GtkViewport.frame {
     transition: all 100ms ease-in-out;
 }
 
+/* buttons that are not part of an osd toolbar need a background */
+.button.osd,
+.button.osd:hover,
+.button.osd:active {
+    background: @osd_bg_color;
+    padding: 12px;
+    box-shadow: none;
+    border-image: none;
+}
+
+.button.osd:hover,
 .osd .button:hover {
     color: lighter(@osd_fg_color);
     icon-shadow: 0 0 3px @osd_fg_color;
 }
 
+.button.osd:active,
 .osd .button:active {
     color: darker(@osd_fg_color);
     icon-shadow: none;
