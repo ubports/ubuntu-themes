@@ -1,3 +1,9 @@
+ubuntu-themes (14.04+15.10.20150907-0ubuntu1) wily; urgency=medium
+
+  * Style software-center's action bar again
+
+ -- Iain Lane <iain@orangesquash.org.uk>  Mon, 07 Sep 2015 08:47:22 +0000
+
 ubuntu-themes (14.04+15.10.20150813-0ubuntu1) wily; urgency=medium
 
   [ CI Train Bot ]
