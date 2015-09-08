@@ -1150,12 +1150,12 @@ GtkScale.mark {
 
 .scrollbar:hover,
 .scrollbar.dragging {
-   background-color: @scrollbar_track_color;
+    background-color: @scrollbar_track_color;
 }
 
 .scrollbar:hover:backdrop,
 .scrollbar.dragging:backdrop {
-   background-color: @backdrop_selected_bg_color;
+    background-color: @backdrop_selected_bg_color;
 }
 
 /* Adding margins, so actual visible size is: -GtkRange-slider-width - margin
@@ -1163,17 +1163,17 @@ GtkScale.mark {
  */
 .scrollbar.vertical:hover:dir(ltr),
 .scrollbar.vertical.dragging:dir(ltr) {
-   margin-left: 2px;
+    margin-left: 2px;
 }
 
 .scrollbar.vertical:hover:dir(rtl),
 .scrollbar.vertical.dragging:dir(rtl) {
-   margin-right: 2px;
+    margin-right: 2px;
 }
 
 .scrollbar.horizontal:hover,
 .scrollbar.horizontal.dragging {
-   margin-top: 2px;
+    margin-top: 2px;
 }
 
 .scrollbar.slider {
@@ -1191,15 +1191,15 @@ GtkScale.mark {
  * this allows to define some kind of proximity effect also on mouse-enter
  */
 .scrollbar.slider.vertical:dir(ltr):not(:hover):not(.dragging) {
-   margin-left: 7px;
+    margin-left: 7px;
 }
 
 .scrollbar.slider.vertical:dir(rtl):not(:hover):not(.dragging) {
-   margin-right: 7px;
+    margin-right: 7px;
 }
 
 .scrollbar.slider.horizontal:not(:hover):not(.dragging) {
-   margin-top: 7px;
+    margin-top: 7px;
 }
 
 .scrollbar.slider:hover {
