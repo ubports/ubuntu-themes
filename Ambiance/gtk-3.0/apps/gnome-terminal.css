@@ -7,50 +7,9 @@ TerminalScreen {
     color: #fff;
 }
 
-TerminalScreenContainer .scrollbar {
-    background-color: @terminal_bg;
-}
-
-TerminalScreenContainer .scrollbar:hover,
-TerminalScreenContainer .scrollbar.dragging {
-    background-color: mix(@scrollbar_track_color, @terminal_bg, 0.7);
-}
-
-TerminalScreenContainer .scrollbar.slider {
-    background-color: mix(@terminal_bg, @selected_bg_color, 0.8);
-}
-
-TerminalScreenContainer .scrollbar:hover:backdrop,
-TerminalScreenContainer .scrollbar.dragging:backdrop {
-    background-color: mix(@terminal_bg, @backdrop_selected_bg_color, 0.3);
-}
-
-TerminalScreenContainer .scrollbar.slider:backdrop {
-    background-color: mix(@terminal_bg, @backdrop_filling_bg, 0.9);
-}
-
-TerminalScreenContainer .scrollbar.slider:hover:backdrop {
-    background-color: mix(@terminal_bg, @backdrop_filling_bg, 1.0);
-}
-
-/* Override default margins, as they don't work here. We use a border instead.
- * These 'hacks' shouldn't needed anymore as from terminal 3.16 */
-TerminalScreenContainer .scrollbar.vertical:not(.slider):hover:dir(ltr),
-TerminalScreenContainer .scrollbar.vertical:not(.slider).dragging:dir(ltr) {
-    margin: 0;
-    border-left: 2px solid @terminal_bg;
-}
-
-TerminalScreenContainer .scrollbar.vertical:not(.slider):hover:dir(rtl),
-TerminalScreenContainer .scrollbar.vertical:not(.slider).dragging:dir(rtl) {
-    margin: 0;
-    border-right: 2px solid @terminal_bg;
-}
-
-TerminalScreenContainer .scrollbar.horizontal:not(.slider):hover,
-TerminalScreenContainer .scrollbar.horizontal:not(.slider).dragging {
-    margin: 0;
-    border-top: 2px solid @terminal_bg;
+TerminalScreenContainer .scrollbar:hover:not(.slider),
+TerminalScreenContainer .scrollbar.dragging:not(.slider) {
+    background-color: alpha(@scrollbar_track_color, 0.4);
 }
 
 /* Since .hovering class is not working here, we always use the same radius */
