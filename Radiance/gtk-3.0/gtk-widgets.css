@@ -1194,7 +1194,9 @@ GtkScale.mark {
 }
 
 .scrollbar.horizontal:hover,
-.scrollbar.horizontal.dragging {
+.scrollbar.horizontal.dragging,
+.scrollbar.horizontal.slider:hover,
+.scrollbar.horizontal.slider.dragging {
     margin-top: 2px;
 }
 
