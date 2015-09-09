@@ -1203,7 +1203,7 @@ GtkScale.mark {
     border-radius: 1px;
 }
 
-.scrollbar.slider:hover,
+.scrollbar.slider.hovering,
 .scrollbar.slider.dragging {
     border-radius: 2px;
     margin: 0;
@@ -1236,11 +1236,11 @@ GtkScale.mark {
     background-color: alpha(@backdrop_filling_bg, 0.8);
 }
 
-.scrollbar.slider:backdrop {
+.scrollbar.slider:hover:backdrop {
     background-color: alpha(@backdrop_filling_bg, 0.85);
 }
 
-.scrollbar.slider:backdrop {
+.scrollbar.slider:active:backdrop {
     background-color: @backdrop_filling_bg;
 }
 

@@ -51,7 +51,7 @@
 @define-color osd_bg_color alpha(#202526, 0.7);
 @define-color osd_border_color alpha(black, 0.7);
 
-@define-color scrollbar_track_color #e3e3e3;
+@define-color scrollbar_track_color mix(@base_color, black, 0.1); /* #e6e6e6 */
 
 @import url("gtk-widgets-borders.css");
 @import url("gtk-widgets-assets.css");
