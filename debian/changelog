@@ -1,3 +1,10 @@
+ubuntu-themes (14.04+15.10.20150910-0ubuntu1) wily; urgency=medium
+
+  * Ambiance, Radiance: make overlay scrollbars too look more like the
+    ubuntu designed ones (LP: #1450747, #1493607)
+
+ -- Marco Trevisan (Treviño) <mail@3v1n0.net>  Thu, 10 Sep 2015 13:27:13 +0000
+
 ubuntu-themes (14.04+15.10.20150907-0ubuntu1) wily; urgency=medium
 
   * Style software-center's action bar again
