@@ -1006,7 +1006,7 @@ GtkProgressBar {
     border-radius: 8px;
     border-width: 0px;
     background-image: none;
-    background-color: #b0b0b0;
+    background-color: @backdrop_filling_bg;
 }
 
 .scale.highlight.left:insensitive {
@@ -1073,8 +1073,8 @@ GtkLevelBar.vertical {
 .level-bar.fill-block:backdrop,
 .level-bar.fill-block.level-high:backdrop,
 .level-bar.fill-block.level-low:backdrop {
-    background-color: #b0b0b0;
-    border-color: #b0b0b0;
+    background-color: @backdrop_filling_bg;
+    border-color: @backdrop_filling_bg;
     background-image: none;
 }
 
@@ -1162,24 +1162,88 @@ GtkScale.mark {
     -GtkScrollbar-has-forward-stepper: 0;
     -GtkScrollbar-trough-border: 0;
     -GtkScrollbar-min-slider-length: 31;
-    -GtkRange-slider-width: 3;
+    -GtkRange-slider-width: 10;
 
+    background-image: none;
+    background-size: 0;
     border: none;
+    border-radius: 0;
 }
 
-.scrollbar.hovering,
+.scrollbar:hover,
 .scrollbar.dragging {
-    -GtkRange-slider-width: 10;
-    background-color: alpha(@bg_color, 0.8);
+    background-color: @scrollbar_track_color;
+}
+
+.scrollbar:hover:backdrop,
+.scrollbar.dragging:backdrop {
+    background-color: @backdrop_selected_bg_color;
+}
+
+/* Adding margins, so actual visible size is: -GtkRange-slider-width - margin
+ * this allows to keep the slider smaller, but keeping few threshold pixels
+ */
+.scrollbar.vertical:hover:dir(ltr),
+.scrollbar.vertical.dragging:dir(ltr) {
+    margin-left: 2px;
+}
+
+.scrollbar.vertical:hover:dir(rtl),
+.scrollbar.vertical.dragging:dir(rtl) {
+    margin-right: 2px;
+}
+
+.scrollbar.horizontal:hover,
+.scrollbar.horizontal.dragging,
+.scrollbar.horizontal.slider:hover,
+.scrollbar.horizontal.slider.dragging {
+    margin-top: 2px;
 }
 
 .scrollbar.slider {
     background-color: alpha(@selected_bg_color, 0.8);
-    border-radius: 8px;
+    border-radius: 1px;
+}
+
+.scrollbar.slider.hovering,
+.scrollbar.slider.dragging {
+    border-radius: 2px;
+    margin: 0;
+}
+
+/* Adding margins, so actual visible size is: -GtkRange-slider-width - margin
+ * this allows to define some kind of proximity effect also on mouse-enter
+ */
+.scrollbar.slider.vertical:dir(ltr):not(:hover):not(.dragging) {
+    margin-left: 7px;
+}
+
+.scrollbar.slider.vertical:dir(rtl):not(:hover):not(.dragging) {
+    margin-right: 7px;
+}
+
+.scrollbar.slider.horizontal:not(:hover):not(.dragging) {
+    margin-top: 7px;
+}
+
+.scrollbar.slider:hover {
+    background-color: alpha(@selected_bg_color, 0.85);
 }
 
 .scrollbar.slider:active {
     background-color: @selected_bg_color;
+}
+
+.scrollbar.slider:backdrop {
+    background-color: alpha(@backdrop_filling_bg, 0.8);
+}
+
+.scrollbar.slider:hover:backdrop {
+    background-color: alpha(@backdrop_filling_bg, 0.85);
+}
+
+.scrollbar.slider:active:backdrop {
+    background-color: @backdrop_filling_bg;
 }
 
 /*******************
