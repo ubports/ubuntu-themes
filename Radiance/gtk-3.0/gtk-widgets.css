@@ -1551,6 +1551,7 @@ GtkTextView {
     border-style: none;
     padding: 1px;
 
+    background-color: @bg_color;
     color: @fg_color;
     text-shadow: none;
 }
