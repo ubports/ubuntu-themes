@@ -1,3 +1,13 @@
+ubuntu-themes (14.04+15.10.20151001-0ubuntu1) wily; urgency=medium
+
+  [ Lars Uebernickel ]
+  * osd: style free-floating osd buttons (LP: #1466890, #1500844)
+
+  [ Matthieu James ]
+  * Added a new VPN indicator and a bunch of new mono icons.
+
+ -- Pete Woods <ci-train-bot@canonical.com>  Thu, 01 Oct 2015 10:13:06 +0000
+
 ubuntu-themes (14.04+15.10.20150910-0ubuntu1) wily; urgency=medium
 
   * Ambiance, Radiance: make overlay scrollbars too look more like the
