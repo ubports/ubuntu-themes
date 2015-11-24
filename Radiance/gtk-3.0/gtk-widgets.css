@@ -1364,6 +1364,11 @@ GtkPlacesSidebar.sidebar row:selected:backdrop {
     text-shadow: 0 1px shade (shade (@bg_color, 0.95), 0.96);
 }
 
+GtkPlacesSidebar.sidebar .sidebar-icon {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
 /**************
  * spinbutton *
  **************/
