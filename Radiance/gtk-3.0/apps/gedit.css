@@ -120,41 +120,44 @@ GeditOpenDocumentSelector .open-document-selector-treeview:prelight {
     background-color: mix(@bg_color, @selected_bg_color, 0.20);
 }
 
+GeditStatusbar {
+    border-top: 1px solid @borders;
+}
 
 GeditStatusbar .button.flat {
     border-radius: 0;
     border-bottom: none;
 }
 
-.notebook GeditCloseButton.button GtkImage { 
-padding: 1px;
+.notebook GeditCloseButton.button GtkImage {
+    padding: 1px;
 }
 
 .notebook GeditCloseButton.button {
-background-color: transparent;
-background-image: none;
-border-image: none;
-border-radius: 3px;
+    background-color: transparent;
+    background-image: none;
+    border-image: none;
+    border-radius: 3px;
 }
 
 .gedit-document-panel-document-row {
-padding: 5px;
+    padding: 5px;
 }
 
 
 .notebook GeditCloseButton.button:prelight{
-border-color: shade(@bg_color,0.65);
+    border-color: shade(@bg_color,0.65);
 }
 
 .notebook GeditTabLabel.active-page GeditCloseButton.button:prelight{
-border-color: darker(@bg_color);
+    border-color: darker(@bg_color);
 }
 
 .notebook GeditCloseButton:backdrop.button:prelight{
-border-color: shade(@bg_color,0.75);
+    border-color: shade(@bg_color,0.75);
 }
 
 .notebook GeditTabLabel.active-page GeditCloseButton:backdrop.button:prelight{
-border-color: shade(@bg_color,0.85);
+    border-color: shade(@bg_color,0.85);
 }
 
