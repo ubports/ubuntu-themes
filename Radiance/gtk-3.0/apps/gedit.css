@@ -129,7 +129,7 @@ GeditStatusbar .button.flat {
     border-bottom: none;
 }
 
-.notebook GeditCloseButton.button GtkImage {
+.notebook GeditCloseButton.button GtkImage { 
     padding: 1px;
 }
 
@@ -155,9 +155,16 @@ GeditStatusbar .button.flat {
 
 .notebook GeditCloseButton:backdrop.button:prelight{
     border-color: shade(@bg_color,0.75);
+    border-image: none;
+    border-style: solid;
+    background-color: transparent;
 }
 
 .notebook GeditTabLabel.active-page GeditCloseButton:backdrop.button:prelight{
     border-color: shade(@bg_color,0.85);
+    border-image: none;
+    border-style: solid;
+    background-color: transparent;
 }
+
 
