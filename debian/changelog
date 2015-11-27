@@ -1,3 +1,13 @@
+ubuntu-themes (14.04+16.04.20151127-0ubuntu1) xenial; urgency=medium
+
+  [ Will Cooke ]
+  * Adds padding to sidebar icons to fix
+    https://bugs.launchpad.net/ubuntu/+source/ubuntu-themes/+bug/1515557
+    (LP: #1515557)
+  * Revised theme support for new version of Gedit.
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Fri, 27 Nov 2015 16:12:15 +0000
+
 ubuntu-themes (14.04+15.10.20151001-0ubuntu1) wily; urgency=medium
 
   [ Lars Uebernickel ]
