@@ -15,7 +15,7 @@
    version="1.1"
    inkscape:version="0.91+devel r"
    viewBox="0 0 96 96.000001"
-   sodipodi:docname="drive-harddisk-symbolic03.svg">
+   sodipodi:docname="drive-harddisk-symbolic.svg">
   <defs
      id="defs4876" />
   <sodipodi:namedview
@@ -26,8 +26,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.6199995"
-     inkscape:cx="11.645905"
-     inkscape:cy="48.90568"
+     inkscape:cx="-40.578299"
+     inkscape:cy="47.482192"
      inkscape:document-units="px"
      inkscape:current-layer="g4780"
      showgrid="true"
@@ -164,14 +164,6 @@
              d="m 375.97852,393.36133 c 0,3.29083 2.7111,6.00195 6.00195,6.00195 3.29085,0 6.00195,-2.71112 6.00195,-6.00195 0,-3.29083 -2.7111,-6 -6.00195,-6 -3.29085,0 -6.00195,2.70917 -6.00195,6 z m 4,0 c 0,-1.12782 0.87247,-2 2.00195,-2 1.12948,0 2.00195,0.87218 2.00195,2 0,1.12782 -0.87247,2 -2.00195,2 -1.12948,0 -2.00195,-0.87218 -2.00195,-2 z"
              id="path4187"
              inkscape:connector-curvature="0" />
-          <ellipse
-             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.49100001;fill:none;fill-opacity:1;fill-rule:nonzero;stroke:#808080;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-             id="path4207"
-             cx="-413.36221"
-             cy="-417.99454"
-             transform="matrix(0,-1,-1,0,0,0)"
-             rx="4"
-             ry="4.0015826" />
         </g>
       </g>
     </g>
