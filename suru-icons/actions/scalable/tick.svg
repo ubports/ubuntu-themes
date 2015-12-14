@@ -15,7 +15,7 @@
    version="1.1"
    inkscape:version="0.91+devel r"
    viewBox="0 0 96 96.000001"
-   sodipodi:docname="tick.svg">
+   sodipodi:docname="toolkit_tick.svg">
   <defs
      id="defs4876" />
   <sodipodi:namedview
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="5.6199992"
-     inkscape:cx="39.839857"
-     inkscape:cy="42.597848"
+     inkscape:zoom="3.5967995"
+     inkscape:cx="-43.872348"
+     inkscape:cy="77.52722"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="true"
@@ -116,7 +116,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -136,7 +136,7 @@
        style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:4;marker:none;enable-background:accumulate" />
     <path
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#808080;fill-opacity:1;stroke:none;stroke-width:1.08179736"
-       d="m 20.936515,96.267508 -50.815738,45.592082 -29.266157,-26.18275 -4.711766,5.32643 33.965832,35.7393 54.034168,-56.859618 -3.206339,-3.615444 z"
+       d="m 21.228,99.016375 -46.196125,41.447345 -26.605597,-23.8025 -4.283424,4.84221 30.878029,32.49027 49.121971,-51.69056 z"
        id="path4041-9"
        inkscape:connector-curvature="0" />
   </g>

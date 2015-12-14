@@ -3,12 +3,12 @@ Name=Suru
 Comment=Ubuntu Touch icon theme
 Inherits=Humanity,ubuntu-mobile,hicolor,gnome
 
-Directories=actions/scalable,apps/128,apps/256,apps/512,apps/scalable,devices/scalable,mimetypes/scalable,places/48,places/128,places/256,places/512,places/scalable,status/128,status/256,status/512,status/scalable
+Directories=actions/scalable,apps/128,apps/256,apps/512,apps/scalable,devices/scalable,mimetypes/scalable,places/48,places/128,places/256,places/512,places/scalable,status/128,status/256,status/512,status/scalable,toolkit/scalable
 
 [actions/scalable]
-MinSize=9
-Size=90
-MaxSize=256
+MinSize=16
+Size=96
+MaxSize=512
 Context=Actions
 Type=Scalable
 
@@ -28,22 +28,22 @@ Context=Applications
 Type=Fixed
 
 [apps/scalable]
-MinSize=9
-Size=90
+MinSize=16
+Size=96
 MaxSize=512
 Context=Applications
 Type=Scalable
 
 [devices/scalable]
-MinSize=9
-Size=90
+MinSize=16
+Size=96
 MaxSize=512
 Context=Devices
 Type=Scalable
 
 [mimetypes/scalable]
-MinSize=9
-Size=90
+MinSize=16
+Size=96
 MaxSize=512
 Context=Mimetypes
 Type=Scalable
@@ -69,8 +69,8 @@ Context=Places
 Type=Fixed
 
 [places/scalable]
-MinSize=9
-Size=90
+MinSize=16
+Size=96
 MaxSize=512
 Context=Places
 Type=Scalable
@@ -91,9 +91,16 @@ Context=Status
 Type=Fixed
 
 [status/scalable]
-MinSize=9
-Size=90
-MaxSize=256
+MinSize=16
+Size=96
+MaxSize=512
+Context=Status
+Type=Scalable
+
+[toolkit/scalable]
+MinSize=16
+Size=96
+MaxSize=512
 Context=Status
 Type=Scalable
 
