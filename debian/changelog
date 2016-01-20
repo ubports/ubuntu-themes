@@ -1,3 +1,10 @@
+ubuntu-themes (14.04+16.04.20160120-0ubuntu1) xenial; urgency=medium
+
+  [ Lars Uebernickel ]
+  * Scrollbars: fix through drawing on webkit
+
+ -- Iain Lane <iain@orangesquash.org.uk>  Wed, 20 Jan 2016 12:48:16 +0000
+
 ubuntu-themes (14.04+16.04.20151216-0ubuntu1) xenial; urgency=medium
 
   * Basic "app-notification" theming to avoid weirdness in nautilus
