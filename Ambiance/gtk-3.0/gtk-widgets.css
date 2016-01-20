@@ -1151,10 +1151,15 @@ GtkScale.mark {
     -GtkScrollbar-min-slider-length: 31;
     -GtkRange-slider-width: 10;
 
+    background-color: @scrollbar_track_color;
     background-image: none;
     background-size: 0;
     border: none;
     border-radius: 0;
+}
+
+.scrollbar.overlay-indicator {
+    background-color: transparent;
 }
 
 .scrollbar:hover,
