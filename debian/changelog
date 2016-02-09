@@ -1,3 +1,10 @@
+ubuntu-themes (14.04+16.04.20160209-0ubuntu1) xenial; urgency=medium
+
+  [ Lars Uebernickel ]
+  * gnome-terminal: fix scrollbar background (LP: #1539055)
+
+ -- Iain Lane <iain@orangesquash.org.uk>  Tue, 09 Feb 2016 11:54:05 +0000
+
 ubuntu-themes (14.04+16.04.20160120-0ubuntu1) xenial; urgency=medium
 
   [ Lars Uebernickel ]
