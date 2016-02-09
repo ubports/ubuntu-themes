@@ -17,3 +17,7 @@ TerminalScreenContainer .scrollbar.slider.hovering,
 TerminalScreenContainer .scrollbar.slider.dragging {
     border-radius: 1px;
 }
+
+TerminalScreenContainer .scrollbar {
+    background-color: transparent;
+}
