@@ -286,6 +286,13 @@ GtkAssistant .sidebar {
     box-shadow: none;
 }
 
+/* Make linked dialog buttons look like they are not linked */
+.message-dialog .linked.dialog-action-area .button {
+    border-image-width: 12px;
+    box-shadow: none;
+    border-radius: 7px;
+}
+
 /****************
  * cell and row *
  ****************/
