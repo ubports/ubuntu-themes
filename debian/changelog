@@ -1,3 +1,23 @@
+ubuntu-themes (14.04+16.04.20160324.1-0ubuntu1) xenial; urgency=medium
+
+  [ Marco Trevisan (Treviño) ]
+  * Ambiance, Radiance: use inverted gradient in headerbar when in
+    toolbar-mode (LP: #1515810)
+
+  [ Sebastien Bacher ]
+  * reduce the padding on flat entries, that's needed with gtk 3.18
+    otherwise the entry is displayed over new rows in listview when
+    editing, that's also what the gtk upstream themes are doing.
+  * show the cursor index better in totem videos (LP: #1545026)
+
+  [ Will Cooke ]
+  * Override box shadow and border settings for linked dialog buttons so
+    they don't looked mashed together. Extra border radius is required
+    to stop the button background bleeding through the border. (LP:
+    #1513856)
+
+ -- Iain Lane <iain@orangesquash.org.uk>  Thu, 24 Mar 2016 14:27:56 +0000
+
 ubuntu-themes (14.04+16.04.20160209-0ubuntu1) xenial; urgency=medium
 
   [ Lars Uebernickel ]
