@@ -427,6 +427,10 @@ GdMainIconView.content-view {
     color: @text_color;
 }
 
+.entry.flat, .entry.flat:focus {
+    padding: 2px;
+}
+
 .entry:backdrop {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (mix (shade (@base_color, 0.96), @bg_color, 0.5)),
