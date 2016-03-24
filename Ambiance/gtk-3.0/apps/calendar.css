@@ -1,3 +1,6 @@
+/* Hide the white corners.  Seems to be a bug in Calendar */
+GcalWindow { background-color: transparent; }
+
 /* Make the calendar focus ring appear around the selected day */
 .calendar-view  {
     outline-style: dashed;
@@ -5,4 +8,5 @@
     outline-width: 2px;
     outline-radius: 8px;
 }
+
 
