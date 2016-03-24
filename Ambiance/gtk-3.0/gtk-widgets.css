@@ -2064,11 +2064,6 @@ GtkViewport.frame {
     icon-shadow: none;
 }
 
-.osd .scale {
-    margin-left: 9px;
-    margin-right: 9px;
-}
-
 /*************
  * overshoot *
  *************/
