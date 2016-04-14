@@ -7,6 +7,7 @@ GcalWindow { background-color: transparent; }
     outline-color: @selected_bg_color;
     outline-width: 2px;
     outline-radius: 8px;
+    outline-offset: -4px;
 }
 
 /* Give pop-down lists the same selected bg colour as other menus. Fixes lp# 1558659 */
