@@ -1,3 +1,18 @@
+ubuntu-themes (14.04+16.04.20160415-0ubuntu1) xenial; urgency=medium
+
+  [ Adolfo Jayme Barrientos ]
+  * Add 1px padding to calendar widget elements; looks better. Thanks,
+    Khurshid Alam. (LP: #1537794)
+
+  [ Matthieu James ]
+  * Suru icon theme: normalization of arrows used in mono icons, plus
+    minor additions or updates to existing designs. (LP: #1518934)
+
+  [ Will Cooke ]
+  * Adds these fixes for Calendar: (LP: #1551744, #1558659)
+
+ -- Sebastien Bacher <seb128@ubuntu.com>  Fri, 15 Apr 2016 19:49:25 +0000
+
 ubuntu-themes (14.04+16.04.20160324.1-0ubuntu1) xenial; urgency=medium
 
   [ Marco Trevisan (Treviño) ]
