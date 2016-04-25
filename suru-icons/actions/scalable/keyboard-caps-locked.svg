@@ -15,7 +15,7 @@
    version="1.1"
    inkscape:version="0.91+devel r"
    viewBox="0 0 96 96.000001"
-   sodipodi:docname="save01.svg">
+   sodipodi:docname="keyboard-caps-locked.svg">
   <defs
      id="defs4876" />
   <sodipodi:namedview
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="17.592186"
-     inkscape:cx="41.465886"
-     inkscape:cy="78.333996"
+     inkscape:zoom="10.976561"
+     inkscape:cx="18.398291"
+     inkscape:cy="25.558996"
      inkscape:document-units="px"
      inkscape:current-layer="g4780"
      showgrid="true"
@@ -44,12 +44,13 @@
      inkscape:object-paths="true"
      inkscape:snap-intersection-paths="true"
      inkscape:object-nodes="true"
-     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-smooth-nodes="false"
      inkscape:snap-midpoints="true"
      inkscape:snap-object-midpoints="true"
      inkscape:snap-center="true"
      showguides="true"
-     inkscape:guide-bbox="true">
+     inkscape:guide-bbox="true"
+     inkscape:snap-others="false">
     <inkscape:grid
        type="xygrid"
        id="grid5451"
@@ -57,59 +58,73 @@
     <sodipodi:guide
        orientation="1,0"
        position="8,-8.0000001"
-       id="guide4063" />
+       id="guide4063"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="1,0"
        position="4,-8.0000001"
-       id="guide4065" />
+       id="guide4065"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="0,1"
        position="-8,88.000001"
-       id="guide4067" />
+       id="guide4067"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="0,1"
        position="-8,92.000001"
-       id="guide4069" />
+       id="guide4069"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="0,1"
        position="104,4"
-       id="guide4071" />
+       id="guide4071"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="0,1"
        position="-5,8.0000001"
-       id="guide4073" />
+       id="guide4073"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="1,0"
        position="92,-8.0000001"
-       id="guide4075" />
+       id="guide4075"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="1,0"
        position="88,-8.0000001"
-       id="guide4077" />
+       id="guide4077"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="0,1"
        position="-8,84.000001"
-       id="guide4074" />
+       id="guide4074"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="1,0"
        position="12,-8.0000001"
-       id="guide4076" />
+       id="guide4076"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="0,1"
        position="-5,12"
-       id="guide4078" />
+       id="guide4078"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="1,0"
        position="84,-9.0000001"
-       id="guide4080" />
+       id="guide4080"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="48,-8.0000001"
        orientation="1,0"
-       id="guide4170" />
+       id="guide4170"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="-8,48"
        orientation="0,1"
-       id="guide4172" />
+       id="guide4172"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata4879">
@@ -119,7 +134,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -143,13 +158,6 @@
            transform="matrix(-1,0,0,1,575.99999,611)"
            id="g4780"
            style="display:inline">
-          <path
-             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:2.9994061;marker:none;enable-background:accumulate"
-             d="M 38,2.0000002 38,34 24.375,34 c 0,0 11.153907,24.936981 23.623047,42 C 60.467177,58.936981 71.625,34 71.625,34 L 58,34 58,2.0000002 l -4,0 L 54,38 65.212891,38 C 62.392421,43.987291 56.398717,56.030989 47.998047,68.667969 39.597777,56.030909 33.606559,43.986961 30.787109,38 L 42,38 42,2.0000002 Z"
-             transform="matrix(0,-1,-1.0003957,0,438.00245,441.36222)"
-             id="path4179"
-             inkscape:connector-curvature="0"
-             sodipodi:nodetypes="ccccccccccccccc" />
           <rect
              style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:none;stroke:none;stroke-width:4;marker:none;enable-background:accumulate"
              id="rect4782"
@@ -159,11 +167,18 @@
              y="345.36221"
              transform="scale(-1,1)" />
           <path
-             style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:1;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.00079107;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:8.00158233, 8.00158233;stroke-dashoffset:0;stroke-opacity:1;marker:none;enable-background:accumulate"
-             d="m 355.97,425.36222 -12.00475,0 0,-64 12.00475,0 z m -4.00158,-52 0,-8 -4.00159,0 0,8 z"
-             id="rect4181"
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.00000012;marker:none;enable-background:accumulate"
+             d="m 433.99374,393.36223 c -26.20232,18.85618 -56.0079,32.85641 -56.0079,32.85641 v -16.85642 h -22.01583 v -32 h 22.00871 v -16.85641 c -2e-5,0 29.80555,14.00022 56.00788,32.85642 h 0.008 z"
+             id="path4218"
              inkscape:connector-curvature="0"
+             inkscape:transform-center-x="8.7500002e-06"
+             inkscape:transform-center-y="36.503129"
              sodipodi:nodetypes="cccccccccc" />
+          <path
+             style="color:#000000;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:medium;line-height:normal;font-family:sans-serif;font-variant-ligatures:normal;font-variant-position:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-alternates:normal;font-feature-settings:normal;text-indent:0;text-align:start;text-decoration:none;text-decoration-line:none;text-decoration-style:solid;text-decoration-color:#000000;letter-spacing:normal;word-spacing:normal;text-transform:none;writing-mode:lr-tb;direction:ltr;text-orientation:mixed;dominant-baseline:auto;baseline-shift:baseline;text-anchor:start;white-space:normal;shape-padding:0;clip-rule:nonzero;display:inline;overflow:visible;visibility:visible;opacity:1;isolation:auto;mix-blend-mode:normal;color-interpolation:sRGB;color-interpolation-filters:linearRGB;solid-color:#000000;solid-opacity:1;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:4.00079107;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;marker:none;color-rendering:auto;image-rendering:auto;shape-rendering:auto;text-rendering:auto;enable-background:accumulate"
+             d="m 345.9668,377.36133 v 32 h 4 v -32 z"
+             id="path4250"
+             inkscape:connector-curvature="0" />
         </g>
       </g>
     </g>

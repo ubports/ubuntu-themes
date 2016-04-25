@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="7.024999"
-     inkscape:cx="68.45552"
-     inkscape:cy="32.476855"
+     inkscape:zoom="5.6199992"
+     inkscape:cx="36.912809"
+     inkscape:cy="16.645887"
      inkscape:document-units="px"
      inkscape:current-layer="g4780"
      showgrid="true"
@@ -44,12 +44,13 @@
      inkscape:object-paths="true"
      inkscape:snap-intersection-paths="true"
      inkscape:object-nodes="true"
-     inkscape:snap-smooth-nodes="true"
+     inkscape:snap-smooth-nodes="false"
      inkscape:snap-midpoints="true"
      inkscape:snap-object-midpoints="true"
      inkscape:snap-center="true"
      showguides="true"
-     inkscape:guide-bbox="true">
+     inkscape:guide-bbox="true"
+     inkscape:snap-others="false">
     <inkscape:grid
        type="xygrid"
        id="grid5451"
@@ -57,59 +58,73 @@
     <sodipodi:guide
        orientation="1,0"
        position="8,-8.0000001"
-       id="guide4063" />
+       id="guide4063"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="1,0"
        position="4,-8.0000001"
-       id="guide4065" />
+       id="guide4065"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="0,1"
        position="-8,88.000001"
-       id="guide4067" />
+       id="guide4067"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="0,1"
        position="-8,92.000001"
-       id="guide4069" />
+       id="guide4069"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="0,1"
        position="104,4"
-       id="guide4071" />
+       id="guide4071"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="0,1"
        position="-5,8.0000001"
-       id="guide4073" />
+       id="guide4073"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="1,0"
        position="92,-8.0000001"
-       id="guide4075" />
+       id="guide4075"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="1,0"
        position="88,-8.0000001"
-       id="guide4077" />
+       id="guide4077"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="0,1"
        position="-8,84.000001"
-       id="guide4074" />
+       id="guide4074"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="1,0"
        position="12,-8.0000001"
-       id="guide4076" />
+       id="guide4076"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="0,1"
        position="-5,12"
-       id="guide4078" />
+       id="guide4078"
+       inkscape:locked="false" />
     <sodipodi:guide
        orientation="1,0"
        position="84,-9.0000001"
-       id="guide4080" />
+       id="guide4080"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="48,-8.0000001"
        orientation="1,0"
-       id="guide4170" />
+       id="guide4170"
+       inkscape:locked="false" />
     <sodipodi:guide
        position="-8,48"
        orientation="0,1"
-       id="guide4172" />
+       id="guide4172"
+       inkscape:locked="false" />
   </sodipodi:namedview>
   <metadata
      id="metadata4879">
@@ -119,7 +134,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -152,10 +167,12 @@
              y="345.36221"
              transform="scale(-1,1)" />
           <path
-             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.00000012;marker:none;enable-background:accumulate"
-             d="M 48 8.0078125 C 27.33973 36.705718 12 68.992188 12 68.992188 L 30 68.992188 L 30 87.984375 L 66 87.984375 L 66 69 L 84 69 C 84 69.00001 68.66029 36.71355 48 8.015625 L 48 8.0078125 z M 47.996094 15.064453 C 63.803284 37.923039 74.023959 58.127679 77.412109 65 L 61.998047 65 L 61.998047 83.984375 L 34 83.984375 L 34 64.992188 L 18.585938 64.992188 C 21.973088 58.121836 32.190944 37.92158 47.996094 15.064453 z "
+             style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#808080;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:0.99980235;marker:none;enable-background:accumulate"
+             d="M 48,4.0078127 C 29.14382,30.199769 15.144531,59.992188 15.144531,59.992188 H 32 V 82 H 64 V 60 H 80.855469 C 80.855469,60.00002 66.8562,30.205639 48,4.0136721 Z m -0.002,7.2128903 C 61.890077,31.358675 70.875351,49.40304 74.212891,56 H 59.998047 V 78 H 36 V 55.992188 H 21.785156 c 3.33727,-6.596421 12.322541,-24.635102 26.212891,-44.771485 z"
              transform="matrix(0,-1,-1.0003957,0,438.00245,441.36222)"
-             id="path4185" />
+             id="path4218"
+             inkscape:connector-curvature="0"
+             sodipodi:nodetypes="ccccccccccccccccc" />
         </g>
       </g>
     </g>
