@@ -1,3 +1,12 @@
+ubuntu-themes (14.04+16.04.20160426-0ubuntu1) xenial; urgency=medium
+
+  [ Matthieu James ]
+  * [Suru icons] Updated the calendar mono icon to a more generic design
+    (removed the digits). Added or updated another action and indicator
+    mono icons. (LP: #1362962)
+
+ -- Renato Araujo Oliveira Filho <renato.filho@canonical.com>  Tue, 26 Apr 2016 12:50:21 +0000
+
 ubuntu-themes (14.04+16.04.20160415-0ubuntu1) xenial; urgency=medium
 
   [ Adolfo Jayme Barrientos ]
