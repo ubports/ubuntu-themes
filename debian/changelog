@@ -1,3 +1,12 @@
+ubuntu-themes (14.04+16.04.20160426-0ubuntu2) UNRELEASED; urgency=medium
+
+  [ Will Cooke ]
+  * Adds Terminal specific CSS to change tab colours making it easier to
+    distinguish the current selected tab from the others. Design have reviewed
+    and ack'd. LP: #762349
+
+ -- Iain Lane <iain.lane@canonical.com>  Tue, 24 May 2016 10:21:12 +0100
+
 ubuntu-themes (14.04+16.04.20160426-0ubuntu1) xenial; urgency=medium
 
   [ Matthieu James ]
