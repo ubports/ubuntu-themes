@@ -1,4 +1,4 @@
-ubuntu-themes (14.04+16.04.20160426-0ubuntu2) UNRELEASED; urgency=medium
+ubuntu-themes (14.04+16.04.20160426-0ubuntu2) yakkety; urgency=medium
 
   [ Will Cooke ]
   * Adds Terminal specific CSS to change tab colours making it easier to
