@@ -53,6 +53,13 @@
 
 @define-color scrollbar_track_color mix(@base_color, black, 0.1); /* #e6e6e6 */
 
+@define-color progressbar_fill_a shade(@theme_selected_bg_color, 1.07);
+@define-color progressbar_fill_b shade(mix(@theme_selected_bg_color, @selected_bg_color, 0.10), 0.91);
+@define-color button_border_active shade(@theme_selected_bg_color, 0.95);
+@define-color progressbar_backdrop_fill_a shade(@backdrop_selected_bg_color, 1.07);
+@define-color progressbar_backdrop_fill_b shade(mix(@backdrop_selected_bg_color, grey, 0.10), 0.91);
+@define-color button_border_backdrop_active shade(@backdrop_selected_bg_color, 0.95);
+
 @import url("gtk-widgets-borders.css");
 @import url("gtk-widgets-assets.css");
 @import url("gtk-widgets.css");
