@@ -1,3 +1,11 @@
+ubuntu-themes (14.04+16.10.20160613-0ubuntu1) yakkety; urgency=medium
+
+  [ Matthieu James ]
+  * [Suru icons] Added location indicator icons for inactive, idle and
+    active states. (LP: #1407921)
+
+ -- marcus.tomlinson@canonical.com <marcus.tomlinson@canonical.com>  Mon, 13 Jun 2016 05:24:33 +0000
+
 ubuntu-themes (14.04+16.04.20160426-0ubuntu2) yakkety; urgency=medium
 
   [ Will Cooke ]
