@@ -1038,10 +1038,10 @@ GtkProgressBar {
     background-image: linear-gradient(to bottom,
                                       @progressbar_fill_a,
                                       @progressbar_fill_b);
-    border-top-color: shade(@button_border_active, 0.80);
-    border-left-color: shade(@button_border_active, 0.85);
-    border-right-color: shade(@button_border_active, 0.85);
-    border-bottom-color: shade(@button_border_active, 0.80);
+    border-top-color: shade(@button_border_backdrop_active, 0.80);
+    border-left-color: shade(@button_border_backdrop_active, 0.85);
+    border-right-color: shade(@button_border_backdrop_active, 0.85);
+    border-bottom-color: shade(@button_border_backdrop_active, 0.80);
     color: @backdrop_fg_color;
     text-shadow: none;
 }
