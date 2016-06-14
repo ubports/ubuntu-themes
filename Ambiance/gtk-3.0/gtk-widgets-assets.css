@@ -464,7 +464,7 @@ scale.horizontal slider:focus {
 
 scale slider:hover:focus,
 scale.horizontal slider:hover:focus {
-    background-image: url("assets/slider-horizontal-focus-hover.png");
+    background-image: url("assets/slider-horizontal-focused-hover.png");
 }
 
 scale slider:disabled,
