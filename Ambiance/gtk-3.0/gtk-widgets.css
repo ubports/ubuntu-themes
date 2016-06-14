@@ -1,27 +1,8 @@
 * {
-    -GtkButton-child-displacement-x: 1;
-    -GtkButton-child-displacement-y: 1;
-    -GtkButton-image-spacing: 0;
-    -GtkButton-interior-focus: true;
-    -GtkCheckMenuItem-indicator-size: 16;
-    -GtkEntry-inner-border: 2;
-    -GtkEntry-progress-border: 0;
-    -GtkExpander-expander-size: 8;
     -GtkHTML-link-color: #f07746; /* @link_color */
     -GtkIMHtml-hyperlink-color: #f07746; /* @link_color */
-    -GtkProgressBar-min-horizontal-bar-height: 14;
-    -GtkProgressBar-min-vertical-bar-width: 14;
-    -GtkScrolledWindow-scrollbar-spacing: 0;
-    -GtkSeparatorMenuItem-horizontal-padding: 0;
     -GtkStatusbar-shadow-type: none;
     -GtkTextView-error-underline-color: #df382c; /* @error_color doesn't work due to a gtk bug */
-    -GtkToolButton-icon-spacing: 6;
-    -GtkToolItemGroup-expander-size: 11;
-    -GtkToolbar-internal-padding: 0;
-    -GtkTreeView-expander-size: 8;
-    -GtkTreeView-vertical-separator: 0;
-    -GtkWindow-resize-grip-width: 0;
-    -GtkWindow-resize-grip-height: 0;
     -WnckTasklist-fade-overlay-rect: 0;
 
     background-origin: border-box;
