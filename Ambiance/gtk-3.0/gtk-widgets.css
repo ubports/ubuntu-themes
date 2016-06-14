@@ -2016,6 +2016,7 @@ headerbar button:disabled,
     color: @dark_fg_color;
 }
 
+.primary-toolbar button,
 headerbar button *,
 headerbar button:disabled * {
     text-shadow: 0 -1px shade (@dark_bg_color, 0.7);
@@ -2055,6 +2056,7 @@ headerbar button:checked:backdrop {
     border-image-source: url("assets/backdrop-button-toolbar.png");
 }
 
+.primary-toolbar button:backdrop,
 headerbar button:backdrop *,
 headerbar button:disabled:backdrop *,
 headerbar button:checked:backdrop * {
