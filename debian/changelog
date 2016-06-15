@@ -1,3 +1,10 @@
+ubuntu-themes (14.04+16.10.20160615.1-0ubuntu1) yakkety; urgency=medium
+
+  [ Matthieu James ]
+  * [Suru icons] Added view-rotate icon for Media Services.
+
+ -- Michael Terry <michael.terry@canonical.com>  Wed, 15 Jun 2016 19:52:44 +0000
+
 ubuntu-themes (14.04+16.10.20160613-0ubuntu1) yakkety; urgency=medium
 
   [ Matthieu James ]
