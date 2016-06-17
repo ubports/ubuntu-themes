@@ -2553,6 +2553,9 @@ button.osd:active,
     text-shadow: 0 1px alpha (shade (@bg_color, 1.25), 0.5);
 }
 
+label selection,
+label selection:focus,
+label selection:hover,
 entry selection,
 .view text selection,
 *:selected,
