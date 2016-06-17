@@ -426,6 +426,8 @@ treeview.view header button:last-child {
     background-color: shade (@bg_color, 1.03);
 }
 
+.view.cell:selected,
+.view.cell:active,
 .view:selected,
 .view:active,
 .content-view.view:selected,
@@ -496,10 +498,7 @@ entry:disabled:backdrop {
 }
 
 .primary-toolbar entry progress,
-.primary-toolbar entry progress,
-headerbar entry progress,
-headerbar entry progress,
-entry progress {
+headerbar entry progress {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@selected_bg_color, 0.8)),
                                      color-stop (0.1, shade (@selected_bg_color, 0.9)),
@@ -1109,6 +1108,7 @@ paned separator {
 /*************************
  * progressbar and scale *
  *************************/
+.progressbar,
 scale,
 progressbar {
     border-radius: 8px;
@@ -1119,29 +1119,70 @@ progressbar {
 menubar menuitem scale highlight.left,
 scale highlight.left,
 progressbar trough progress,
-progressbar row,
-progressbar row:hover,
-progressbar row:selected,
-progressbar row:selected:focus,
-progressbar row:nth-child(odd) {
+row progressbar,
+row:hover progressbar,
+row:selected progressbar,
+row:selected:focus progressbar,
+row:nth-child(odd) progressbar,
+.progressbar,
+.progressbar row,
+.progressbar row:hover,
+.progressbar row:selected,
+.progressbar row:selected:focus,
+.progressbar row:nth-child(odd),
+entry progress {
+        /*
     border-radius: 8px;
     border-width: 0px;
     background-image: none;
     background-color: #db6a3c;
     border-style: solid;
+    */
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    background-image: linear-gradient(to bottom,
+                                      @progressbar_fill_a,
+                                      @progressbar_fill_b);
+    border-top-color: shade(@button_border_active, 0.80);
+    border-left-color: shade(@button_border_active, 0.85);
+    border-right-color: shade(@button_border_active, 0.85);
+    border-bottom-color: shade(@button_border_active, 0.80);
+    color: @theme_fg_color;
+    text-shadow: none;
 }
 
+row:backdrop progressbar,
+row:hover:backdrop progressbar,
+row:selected:backdrop progressbar,
+row:selected:focus:backdrop progressbar,
+.progressbar:backdrop,
+.progressbar row:backdrop,
+.progressbar row:hover:backdrop,
+.progressbar row:selected:backdrop,
+.progressbar row:selected:focus:backdrop,
+.progresbar.vertical:backdrop,
 progressbar:backdrop trough progress,
-progressbar row:backdrop,
-progressbar row:hover:backdrop,
-progressbar row:selected:backdrop,
-progressbar row:selected:focus:backdrop,
 scale highlight.bottom:backdrop,
 progressbar.vertical:backdrop trough progress {
+        /*
     border-radius: 8px;
     border-width: 0px;
     background-image: none;
     background-color: @backdrop_filling_bg;
+    */
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    background-image: linear-gradient(to bottom,
+                                      @progressbar_fill_a,
+                                      @progressbar_fill_b);
+    border-top-color: shade(@button_border_backdrop_active, 0.80);
+    border-left-color: shade(@button_border_backdrop_active, 0.85);
+    border-right-color: shade(@button_border_backdrop_active, 0.85);
+    border-bottom-color: shade(@button_border_backdrop_active, 0.80);
+    color: @backdrop_fg_color;
+    text-shadow: none;
 }
 
 scale highlight.left:disabled {
@@ -1156,6 +1197,7 @@ scale highlight.bottom:disabled {
                                      to (shade (@bg_color, 0.85)));
 }
 
+.trough,
 trough,
 trough row,
 trough row:hover,
@@ -1170,6 +1212,7 @@ trough row:selected:focus {
     color: @text_color;
 }
 
+.trough.vertical,
 trough.vertical {
     background-image: -gtk-gradient (linear, left top, right top,
                                      from (#d1d1d1),
