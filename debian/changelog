@@ -1,3 +1,11 @@
+ubuntu-themes (14.04+16.10.20160620.1-0ubuntu1) yakkety; urgency=medium
+
+  [ will@whizzy.org ]
+  * Adds new CSS to style progress bars based on colours rather than
+    images.  This fixes the "empty progress bars" bug. (LP: #1052936)
+
+ -- iain@orangesquash.org.uk <iain@orangesquash.org.uk>  Mon, 20 Jun 2016 09:42:52 +0000
+
 ubuntu-themes (14.04+16.10.20160615.1-0ubuntu1) yakkety; urgency=medium
 
   [ Matthieu James ]
