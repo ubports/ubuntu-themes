@@ -486,8 +486,7 @@ GdMainIconView.content-view {
 .primary-toolbar .entry.progressbar,
 .primary-toolbar .entry.progressbar,
 .header-bar .entry.progressbar,
-.header-bar .entry.progressbar,
-.entry.progressbar {
+.header-bar .entry.progressbar {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@selected_bg_color, 0.8)),
                                      color-stop (0.1, shade (@selected_bg_color, 0.9)),
@@ -1008,12 +1007,22 @@ GtkProgressBar {
 .progressbar row,
 .progressbar row:hover,
 .progressbar row:selected,
-.progressbar row:selected:focused {
-    border-radius: 8px;
-    border-width: 0px;
-    background-image: none;
-    background-color: #db6a3c;
+.progressbar row:selected:focused,
+.progressbar row:nth-child(odd),
+.toolbar .progressbar,
+.entry .progressbar {
+    border-radius: 5px;
     border-style: solid;
+    border-width: 1px;
+    background-image: linear-gradient(to bottom,
+                                      @progressbar_fill_a,
+                                      @progressbar_fill_b);
+    border-top-color: shade(@button_border_active, 0.80);
+    border-left-color: shade(@button_border_active, 0.85);
+    border-right-color: shade(@button_border_active, 0.85);
+    border-bottom-color: shade(@button_border_active, 0.80);
+    color: @theme_fg_color;
+    text-shadow: none;
 }
 
 .progressbar:backdrop,
@@ -1023,10 +1032,18 @@ GtkProgressBar {
 .progressbar row:selected:focused:backdrop,
 .scale.highlight.bottom:backdrop,
 .progressbar.vertical:backdrop {
-    border-radius: 8px;
-    border-width: 0px;
-    background-image: none;
-    background-color: @backdrop_filling_bg;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    background-image: linear-gradient(to bottom,
+                                      @progressbar_fill_a,
+                                      @progressbar_fill_b);
+    border-top-color: shade(@button_border_backdrop_active, 0.80);
+    border-left-color: shade(@button_border_backdrop_active, 0.85);
+    border-right-color: shade(@button_border_backdrop_active, 0.85);
+    border-bottom-color: shade(@button_border_backdrop_active, 0.80);
+    color: @backdrop_fg_color;
+    text-shadow: none;
 }
 
 .scale.highlight.left:insensitive {

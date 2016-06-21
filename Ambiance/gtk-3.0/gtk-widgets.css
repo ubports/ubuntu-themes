@@ -1131,13 +1131,6 @@ row:nth-child(odd) progressbar,
 .progressbar row:selected:focus,
 .progressbar row:nth-child(odd),
 entry progress {
-        /*
-    border-radius: 8px;
-    border-width: 0px;
-    background-image: none;
-    background-color: #db6a3c;
-    border-style: solid;
-    */
     border-radius: 5px;
     border-style: solid;
     border-width: 1px;
@@ -1165,12 +1158,6 @@ row:selected:focus:backdrop progressbar,
 progressbar:backdrop trough progress,
 scale highlight.bottom:backdrop,
 progressbar.vertical:backdrop trough progress {
-        /*
-    border-radius: 8px;
-    border-width: 0px;
-    background-image: none;
-    background-color: @backdrop_filling_bg;
-    */
     border-radius: 5px;
     border-width: 1px;
     border-style: solid;
