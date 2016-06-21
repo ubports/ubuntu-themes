@@ -1,7 +1,6 @@
 * {
     -GtkHTML-link-color: #f07746; /* @link_color */
     -GtkIMHtml-hyperlink-color: #f07746; /* @link_color */
-    -GtkStatusbar-shadow-type: none;
     -GtkTextView-error-underline-color: #df382c; /* @error_color doesn't work due to a gtk bug */
     -WnckTasklist-fade-overlay-rect: 0;
 
@@ -1854,6 +1853,8 @@ switch:disabled {
 switch slider {
     padding: 1px;
     border-radius: 6px;
+    border-left-width: 1px;
+    border-right-width: 1px;
     border-style: solid;
 
     background-image: -gtk-gradient (linear, left top, left bottom,
