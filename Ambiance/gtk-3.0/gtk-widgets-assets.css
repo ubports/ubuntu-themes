@@ -446,8 +446,8 @@ scale.horizontal contents:only-child trough slider {
     background-repeat: no-repeat;
 }
 
-scale slider:backdrop,
-scale.horizontal slider:backdrop {
+scale:backdrop slider,
+scale.horizontal:backdrop slider {
      /*background-image: url("assets/slider-horizontal-disabled.png");*/
 }
 
@@ -467,8 +467,8 @@ scale.horizontal slider:hover:focus {
     background-image: url("assets/slider-horizontal-focused-hover.png");
 }
 
-scale slider:disabled,
-scale.horizontal slider:disabled {
+scale:disabled slider,
+scale.horizontal:disabled slider {
     background-image: url("assets/slider-horizontal-disabled.png");
 }
 
@@ -481,7 +481,7 @@ scale.vertical slider {
     background-image: url("assets/slider-vertical.png");
 }
 
-scale.vertical slider:backdrop {
+scale:backdrop.vertical slider {
     /*background-image: url("assets/slider-vertical-backdrop.png");*/
 }
 
@@ -497,11 +497,11 @@ scale.vertical slider:hover:focus {
     background-image: url("assets/slider-vertical-focus-hover.png");
 }
 
-scale.vertical slider:disabled {
+scale:disabled.vertical slider {
     background-image: url("assets/slider-vertical-disabled.png");
 }
 
-scale.vertical slider:disabled:backdrop {
+scale:disabled:backdrop.vertical slider {
     /*background-image: url("assets/slider-vertical-backdrop-disabled.png");*/
 }
 

@@ -215,19 +215,19 @@ switch slider {
     border-image: url("assets/switch-button-off.png") 9 11 9 11 / 9px 11px 9px 11px stretch;
 }
 
-switch slider:checked {
+switch:checked slider {
     border-image: url("assets/switch-button-on.png") 9 11 9 11 / 9px 11px 9px 11px stretch;
 }
 
 /* XXX temporary */
-switch slider:backdrop,
-switch slider:disabled {
+switch:backdrop slider,
+switch:disabled slider {
     border-image: url("assets/switch-button-off-disabled.png") 9 11 9 11 / 9px 11px 9px 11px stretch;
 }
 
 /* XXX temporary */
-switch slider:active:backdrop,
-switch slider:active:disabled {
+switch:active:backdrop slider,
+switch:active:disabled slider {
     border-image: url("assets/switch-button-on-disabled.png") 9 11 9 11 / 9px 11px 9px 11px stretch;
 }
 
@@ -265,11 +265,11 @@ scale trough {
     border-image: url("assets/scale-horizontal-trough.png") 2 6 2 6 / 2px 6px 2px 6px stretch;
 }
 
-scale trough:disabled {
+scale:disabled trough {
     border-image: url("assets/scale-horizontal-trough-disabled.png") 2 6 2 6 / 2px 6px 2px 6px stretch;
 }
 
-scale trough:backdrop {
+scale:backdrop trough {
     border-image: url("assets/scale-horizontal-trough-backdrop.png") 2 6 2 6 / 2px 6px 2px 6px stretch;
 }
 
@@ -277,7 +277,7 @@ scale.vertical trough {
     border-image: url("assets/scale-vertical-trough.png") 6 2 6 2 / 6px 2px 6px 2px stretch;
 }
 
-scale.vertical trough:disabled {
+scale.vertical:disabled trough {
     border-image: url("assets/scale-vertical-trough-disabled.png") 6 2 6 2 / 6px 2px 6px 2px stretch;
 }
 
@@ -285,15 +285,15 @@ scale trough.highlight.left {
     border-image: url("assets/scale-horizontal-fill.png") 2 6 2 6 / 2px 6px 2px 6px stretch;
 }
 
-scale.vertical trough:backdrop {
+scale.vertical:backdrop trough {
     border-image: url("assets/scale-vertical-trough-backdrop.png") 6 2 6 2 / 6px 2px 6px 2px stretch;
 }
 
-scale trough.highlight.left:disabled {
+scale:backdrop trough.highlight.left {
     border-image: url("assets/scale-horizontal-fill-disabled.png") 2 6 2 6 / 2px 6px 2px 6px stretch;
 }
 
-scale trough.highlight.left:backdrop {
+scale:backdrop trough.highlight.left {
     border-image: url("assets/scale-horizontal-fill-backdrop.png") 2 6 2 6 / 2px 6px 2px 6px stretch;
 }
 
@@ -301,11 +301,11 @@ scale.vertical trough.highlight.bottom {
     border-image: url("assets/scale.vertical-vertical-fill.png") 6 2 6 2 / 6px 2px 6px 2px stretch;
 }
 
-scale.vertical trough.highlight.bottom:disabled {
+scale.vertical:disabled trough.highlight.bottom {
     border-image: url("assets/scale.vertical-vertical-fill-disabled.png") 6 2 6 2 / 6px 2px 6px 2px stretch;
 }
 
-scale.vertical trough.highlight.bottom:backdrop {
+scale.vertical:backdrop trough.highlight.bottom {
     border-image: url("assets/scale-vertical-fill-backdrop.png") 6 2 6 2 / 6px 2px 6px 2px stretch;
 }
 
