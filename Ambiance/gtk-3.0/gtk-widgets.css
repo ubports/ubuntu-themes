@@ -780,7 +780,8 @@ menu button
 /***********
  * menubar *
  ***********/
-menubar {
+menubar,
+.menubar {
     -GtkWidget-window-dragging: true;
 
     background-color: @dark_bg_color;
@@ -792,12 +793,15 @@ menubar {
     min-height: 24px;
 }
 
-menubar:backdrop {
+menubar:backdrop,
+.menubar:backdrop {
     color: @backdrop_dark_fg_color;
     text-shadow: 0 -1px shade (@dark_bg_color, 0.8);
 }
 
-menubar menuitem:hover {
+menubar menuitem:hover,
+.menubar.menuitem:hover,
+.menubar .menuitem:hover {
     background-color: transparent;
     background-clip: border-box;
     background-image: -gtk-gradient (linear, left top, left bottom,
