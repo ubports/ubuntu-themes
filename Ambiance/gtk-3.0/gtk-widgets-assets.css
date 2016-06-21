@@ -494,7 +494,7 @@ scale.vertical slider:focus {
 }
 
 scale.vertical slider:hover:focus {
-    background-image: url("assets/slider-vertical-focus-hover.png");
+    background-image: url("assets/slider-vertical-focused-hover.png");
 }
 
 scale:disabled.vertical slider {
