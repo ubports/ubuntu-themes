@@ -780,7 +780,8 @@ menu button
 /***********
  * menubar *
  ***********/
-menubar {
+menubar,
+.menubar {
     -GtkWidget-window-dragging: true;
 
     background-color: @dark_bg_color;
@@ -792,12 +793,15 @@ menubar {
     min-height: 24px;
 }
 
-menubar:backdrop {
+menubar:backdrop,
+.menubar:backdrop {
     color: @backdrop_dark_fg_color;
     text-shadow: 0 -1px shade (@dark_bg_color, 0.8);
 }
 
-menubar menuitem:hover {
+menubar menuitem:hover,
+.menubar.menuitem:hover,
+.menubar .menuitem:hover {
     background-color: transparent;
     background-clip: border-box;
     background-image: -gtk-gradient (linear, left top, left bottom,
@@ -831,6 +835,8 @@ combobox menuitem *:hover {
     color: @selected_fg_color;
 }
 
+
+popover modelbutton:hover,
 popover menuitem:checked:hover,
 menuitem:hover,
 menu menuitem:hover {
@@ -2360,6 +2366,12 @@ popover:backdrop {
 /* Popover menuitems are actually buttons. The following rules reset most of
  * the button styles for them.
  */
+popover modelbutton,
+popover modelbutton:checked,
+popover modelbutton:hover,
+popover modelbutton:active,
+popover modelbutton:disabled,
+popover modelbutton:backdrop,
 popover menuitem,
 popover menuitem:checked,
 popover menuitem:hover,
@@ -2372,6 +2384,7 @@ popover menuitem:backdrop {
     border-radius: 3px;
 }
 
+popover modelbutton:backdrop:hover,
 popover menuitem:backdrop:hover {
     border: none;
     border-image: none;
@@ -2379,6 +2392,11 @@ popover menuitem:backdrop:hover {
     color: @fg_color;
 }
 
+popover modelbutton:checked,
+popover modelbutton check,
+popover modelbutton check:checked,
+popover modelbutton radio,
+popover modelbutton radio:checked,
 popover menuitem:checked,
 popover menuitem.check,
 popover menuitem.check:checked,
@@ -2388,6 +2406,8 @@ popover menuitem.radio:checked {
     border: none;
 }
 
+popover modelbutton:disabled,
+popover modelbutton *:disabled,
 popover menuitem:disabled,
 popover menuitem *:disabled {
     text-shadow: none;
