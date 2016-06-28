@@ -1,33 +1,42 @@
 /* gnome-terminal */
 @define-color terminal_bg #300a24;
 
+terminal-screen,
 TerminalScreen {
     -TerminalScreen-background-darkness: 0.95;
+    -terminal-screen-background-darkness: 0.95;
     background-color: @terminal_bg;
     color: #fff;
 }
 
+terminal-screen-container scrollbar:hover,
+terminal-screen-container scrollbar:active,
 TerminalScreenContainer .scrollbar:hover:not(.slider),
 TerminalScreenContainer .scrollbar.dragging:not(.slider) {
     background-color: alpha(@scrollbar_track_color, 0.4);
 }
 
 /* Since .hovering class is not working here, we always use the same radius */
+terminal-screen-container scrollbar slider:hover,
+terminal-screen-container scrollbar slider:active,
 TerminalScreenContainer .scrollbar.slider.hovering,
 TerminalScreenContainer .scrollbar.slider.dragging {
     border-radius: 1px;
 }
 
+terminal-screen-container,
 TerminalScreenContainer .scrollbar {
     background-color: transparent;
 }
 
+terminal-notebook header,
 TerminalNotebook.notebook.header {
     background-color: @dark_bg_color;
     border: none;
 }
 
 
+terminal-notebook header.top tab,
 TerminalNotebook.notebook tab.top {
     background-color: shade(@bg_color, 0.7);
     border-width: 1px 1px 0px 1px;
@@ -37,11 +46,14 @@ TerminalNotebook.notebook tab.top {
     border-color: @dark_bg_color;
 }
 
+terminal-notebook header.top tab:checked,
 TerminalNotebook.notebook tab.top:active {
     background-color: @bg_color;
     border-image: none;
 }
 
+terminal-notebook tab button,
+terminal-notebook tab button:hover,
 TerminalNotebook.notebook tab .button {
     background-color: transparent;
     padding: 1px;
@@ -52,6 +64,7 @@ TerminalNotebook GtkBox.vertical {
     background-color: transparent;
 }
 
+terminal-notebook:backdrop box.vertical button,
 .background TerminalNotebook GtkBox.vertical .button {
     border-image:none;
     border-color: transparent;
