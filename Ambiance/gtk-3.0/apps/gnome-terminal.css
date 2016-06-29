@@ -1,43 +1,30 @@
 /* gnome-terminal */
 @define-color terminal_bg #300a24;
 
-terminal-screen,
-TerminalScreen {
+vte-terminal.terminal-screen {
     -TerminalScreen-background-darkness: 0.95;
-    -terminal-screen-background-darkness: 0.95;
     background-color: @terminal_bg;
     color: #fff;
 }
 
 terminal-screen-container scrollbar:hover,
-terminal-screen-container scrollbar:active,
-TerminalScreenContainer .scrollbar:hover:not(.slider),
-TerminalScreenContainer .scrollbar.dragging:not(.slider) {
+terminal-screen-container scrollbar:active {
     background-color: alpha(@scrollbar_track_color, 0.4);
-}
-
-/* Since .hovering class is not working here, we always use the same radius */
-terminal-screen-container scrollbar slider:hover,
-terminal-screen-container scrollbar slider:active,
-TerminalScreenContainer .scrollbar.slider.hovering,
-TerminalScreenContainer .scrollbar.slider.dragging {
     border-radius: 1px;
 }
 
-terminal-screen-container,
-TerminalScreenContainer .scrollbar {
+terminal-screen-container {
     background-color: transparent;
 }
 
-terminal-notebook header,
-TerminalNotebook.notebook.header {
+notebook.terminal-notebook header {
     background-color: @dark_bg_color;
     border: none;
 }
 
 
-terminal-notebook header.top tab,
-TerminalNotebook.notebook tab.top {
+notebook.terminal-notebook header.top tab,
+notebook.terminal-notebook header.top tab:hover {
     background-color: shade(@bg_color, 0.7);
     border-width: 1px 1px 0px 1px;
     border-radius:  8px 8px 0px 0px;
@@ -46,30 +33,44 @@ TerminalNotebook.notebook tab.top {
     border-color: @dark_bg_color;
 }
 
-terminal-notebook header.top tab:checked,
-TerminalNotebook.notebook tab.top:active {
+notebook.terminal-notebook header.top tab:checked {
     background-color: @bg_color;
-    border-image: none;
 }
 
-terminal-notebook tab button,
-terminal-notebook tab button:hover,
-TerminalNotebook.notebook tab .button {
+notebook.terminal-notebook tab button,
+notebook.terminal-notebook tab button:hover {
     background-color: transparent;
     padding: 1px;
 }
 
-/* Match the actions bar.  This is a hack and should be fixed in 3.20 */
-TerminalNotebook GtkBox.vertical {
-    background-color: transparent;
+notebook.terminal-notebook > header > box,
+notebook.terminal-notebook > header > box:hover {
+    padding-left: 5px;
 }
 
-terminal-notebook:backdrop box.vertical button,
-.background TerminalNotebook GtkBox.vertical .button {
-    border-image:none;
-    border-color: transparent;
-    border-width: 1px;
-    border-radius: 5px;
-    padding: 1px;
+notebook.terminal-notebook > header > box button,
+notebook.terminal-notebook > header > box button:hover,
+notebook.terminal-notebook > header > box button:hover:backdrop {
+    background: inherit;
+    border: inherit;
+    padding: inherit;
 }
 
+notebook.terminal-notebook > header > box > box > button:not(:last-child):hover,
+notebook.terminal-notebook > header > box > box > button:not(:last-child):hover:backdrop,
+notebook.terminal-notebook > header > box > box > button:not(:last-child) {
+    padding-right: 5px;
+}
+
+notebook.terminal-notebook > header > box button:hover,
+notebook.terminal-notebook > header > box button:hover:backdrop {
+    color: shade (@bg_color, 0.9);
+}
+
+notebook.terminal-notebook > header > box button {
+    color: shade (@bg_color, 0.7);
+}
+
+notebook.terminal-notebook > header > box button:backdrop {
+    color: shade (@bg_color, 0.4);
+}
