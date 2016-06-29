@@ -563,7 +563,7 @@ notebook.frame {
 
 /* XXX: this is a copy of the above; adding notebook.frame stack there didn't
  * work */
-frame border, notebook.frame stack {
+frame border, notebook.frame > stack {
     border-radius: 3px;
     border-width: 1px;
     border-style: solid;
@@ -576,12 +576,12 @@ frame border, notebook.frame stack {
     border: none;
 }
 
-scrolledwindow viewport.frame,
-frame box stack scrolledwindow {
+scrolledwindow > viewport.frame,
+frame > box > stack > scrolledwindow {
     border-style: none;
 }
 
-frame box.vertical scrolledwindow.frame {
+frame > box.vertical > scrolledwindow.frame {
     border-width: 1px 0px 1px 0px;
 }
 
