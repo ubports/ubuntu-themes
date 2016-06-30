@@ -148,6 +148,7 @@ button:checked:disabled:backdrop {
     border-image-source: url("assets/backdrop-button-active-disabled.png");
 }
 
+/*
 button.default {
     border-image-source: url("assets/button-default.png");
 }
@@ -163,6 +164,7 @@ button.default:focus {
 button.default:focus:hover {
     border-image-source: url("assets/button-default-focused-hover.png");
 }
+*/
 
 button.destructive-action {
     background-image: linear-gradient(to bottom, #e03d3d, #ef2929);
