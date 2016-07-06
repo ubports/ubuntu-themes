@@ -1498,6 +1498,8 @@ GtkStatusbar {
 GtkSwitch {
     border-radius: 8px;
     padding: 0;
+    border-left-width: 1px;
+    border-right-width: 1px;
 }
 
 GtkSwitch.trough {
