@@ -1,3 +1,12 @@
+ubuntu-themes (14.04+16.10.20160706-0ubuntu1) yakkety; urgency=medium
+
+  [ will@whizzy.org ]
+  * Adds specific border widths to left and right of GtkSwitch buttons
+    to hide the overflowing background of the button. Fixes LP: #1594816
+    (LP: #1594816)
+
+ -- iain@orangesquash.org.uk <iain@orangesquash.org.uk>  Wed, 06 Jul 2016 21:30:06 +0000
+
 ubuntu-themes (14.04+16.10.20160620.1-0ubuntu1) yakkety; urgency=medium
 
   [ will@whizzy.org ]
