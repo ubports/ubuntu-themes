@@ -358,8 +358,8 @@ radio row:selected:indeterminate:disabled:backdrop {
 }
 
 .primary-toolbar menu check,
-menubartoolbar menu check,
-.header-bar menu check,
+menubar toolbar menu check,
+headerbar menu check,
 menu check,
 menu check:hover,
 menu check:disabled:not(:checked),
@@ -368,8 +368,8 @@ menu check:indeterminate:not(:checked) {
 }
 
 .primary-toolbar menu radio,
-menubartoolbar menu radio,
-.header-bar menu radio,
+menubar toolbar menu radio,
+headerbar menu radio,
 menu radio,
 menu radio:hover,
 menu radio:disabled:not(:checked),
@@ -378,8 +378,8 @@ menu radio:indeterminate:not(:checked) {
 }
 
 .primary-toolbar menu check:checked,
-menubartoolbar menu check:checked,
-.header-bar menu check:checked,
+menubar toolbar menu check:checked,
+headerbar menu check:checked,
 toolbar menu check:checked:hover,
 menu check:checked,
 menu check:checked:hover {
@@ -387,8 +387,8 @@ menu check:checked:hover {
 }
 
 .primary-toolbar menu check:checked:disabled,
-menubartoolbar menu check:checked:disabled,
-.header-bar menu check:checked:disabled,
+menubar toolbar menu check:checked:disabled,
+headerbar menu check:checked:disabled,
 toolbar menu check:checked:hover:disabled,
 menu check:checked:disabled,
 menu check:checked:hover:disabled {
@@ -396,8 +396,8 @@ menu check:checked:hover:disabled {
 }
 
 .primary-toolbar menu radio:checked,
-menubartoolbar menu radio:checked,
-.header-bar menu radio:checked,
+menubar toolbar menu radio:checked,
+headerbar menu radio:checked,
 toolbar menu radio:checked:hover,
 menu radio:checked,
 menu radio:checked:hover {
@@ -405,8 +405,8 @@ menu radio:checked:hover {
 }
 
 .primary-toolbar menu radio:checked:disabled,
-menubartoolbar menu radio:checked:disabled,
-.header-bar menu radio:checked:disabled,
+menubar toolbar menu radio:checked:disabled,
+headerbar menu radio:checked:disabled,
 toolbar menu radio:checked:hover:disabled,
 menu radio:checked:disabled,
 menu radio:checked:hover:disabled {

@@ -117,19 +117,19 @@ menubar toolbar combobox entry button,
 menubar toolbar combobox entry button:focus:disabled,
 headerbar combobox entry button,
 headerbar combobox entry button:focus:disabled {
-    border-image: url("assets/combobox-entry button-toolbar.png") 10 12 10 1 / 10px 12px 10px 1px stretch;
+    border-image: url("assets/combobox-button-toolbar.png") 10 12 10 1 / 10px 12px 10px 1px stretch;
 }
 
 .primary-toolbar combobox entry button:focus,
 menubar toolbar combobox entry button:focus,
 headerbar combobox entry button:focus {
-    border-image: url("assets/combobox-entry button-toolbar-focused.png") 10 12 10 1 / 10px 12px 10px 1px stretch;
+    border-image: url("assets/combobox-button-toolbar-focused.png") 10 12 10 1 / 10px 12px 10px 1px stretch;
 }
 
 .primary-toolbar combobox entry button:focus:active:focus,
 menubar toolbar combobox entry button:focus:active:focus,
 headerbar combobox entry button:focus:active:focus {
-    border-image: url("assets/combobox-entry button-toolbar-pressed-focused.png") 10 12 10 1 / 10px 12px 10px 1px stretch;
+    border-image: url("assets/combobox-button-toolbar-pressed-focused.png") 10 12 10 1 / 10px 12px 10px 1px stretch;
 }
 
 .primary-toolbar combobox entry:first-child,
