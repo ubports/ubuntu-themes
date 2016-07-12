@@ -8,6 +8,11 @@
 @define-color tooltip_bg_color #000000;
 @define-color tooltip_fg_color #ffffff;
 
+@define-color insensitive_bg_color shade(@bg_color, 0.95);
+@define-color insensitive_fg_color shade(@fg_color, 0.6);
+
+@define-color borders shade(@bg_color, 0.82);
+
 /* misc colors used by gtk+
  *
  * Gtk doesn't currently expand color variables for style properties. Thus,
@@ -15,6 +20,7 @@
  * the name of the variable. Please remember to change values there as well
  * when changing one of the variables below.
  */
+@define-color button_text_shadow alpha(white, 0.4);
 @define-color info_fg_color rgb (181, 171, 156);
 @define-color info_bg_color rgb (252, 252, 189);
 @define-color warning_fg_color rgb (173, 120, 41);
@@ -36,6 +42,7 @@
 
 @define-color backdrop_fg_color mix (@bg_color, @fg_color, 0.8);
 @define-color backdrop_text_color mix (@base_color, @text_color, 0.8);
+@define-color theme_unfocused_text_color @backdrop_text_color;
 @define-color backdrop_dark_fg_color mix (@dark_bg_color, @dark_fg_color, 0.75);
 @define-color backdrop_selected_bg_color shade (@bg_color, 0.92);
 @define-color backdrop_selected_fg_color @fg_color;
@@ -43,6 +50,8 @@
 
 @define-color focus_color alpha (@selected_bg_color, 0.5);
 @define-color focus_bg_color alpha (@selected_bg_color, 0.1);
+
+@define-color scale_highlight_bg #df784e;
 
 @define-color shadow_color alpha(black, 0.5);
 
@@ -67,13 +76,10 @@
 @import url("gtk-widgets-radiance.css");
 @import url("apps/unity.css");
 @import url("apps/unity-greeter.css");
-@import url("apps/baobab.css");
 @import url("apps/gedit.css");
 @import url("apps/nautilus.css");
 @import url("apps/gnome-panel.css");
 @import url("apps/gnome-terminal.css");
-@import url("apps/gnome-system-log.css");
-@import url("apps/glade.css");
 @import url("apps/software-center.css");
 @import url("apps/calendar.css");
 @import url("public-colors.css");
