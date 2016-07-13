@@ -144,6 +144,7 @@ button:active:focus {
     border-image-source: url("assets/button-active-focused-hover.png");
 }
 
+button:checked:disabled,
 button:active:disabled {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (#e3e3e3),
