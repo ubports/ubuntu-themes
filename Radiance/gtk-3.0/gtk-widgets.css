@@ -311,6 +311,7 @@ combobox arrow:backdrop {
 
 /* calendar */
 calendar {
+    background-color: white;
     border: 1px solid @borders;
 }
 
@@ -469,8 +470,19 @@ treeview.view header button:last-child {
     background-color: @backdrop_selected_bg_color;
 }
 
-GdMainIconView.content-view {
-    -GdMainIconView-icon-size: 40;
+:not(iconview).view.cell:disabled,
+.content-view.view:disabled {
+    background-color: @bg_color;
+}
+
+:not(iconview).view.cell:backdrop,
+.content-view.view:backdrop {
+    background-color: @bg_color;
+}
+
+:not(iconview).view.cell:selected:backdrop,
+.content-view.view:selected:backdrop {
+    background-color: @backdrop_selected_bg_color;
 }
 
 /*********

@@ -311,6 +311,7 @@ combobox arrow:backdrop {
 
 /* calendar */
 calendar {
+    background-color: white;
     border: 1px solid @borders;
 }
 
@@ -456,14 +457,17 @@ treeview.view header button:last-child {
     background-color: @selected_bg_color;
 }
 
+:not(iconview).view.cell:disabled,
 .content-view.view:disabled {
     background-color: @bg_color;
 }
 
+:not(iconview).view.cell:backdrop,
 .content-view.view:backdrop {
     background-color: @bg_color;
 }
 
+:not(iconview).view.cell:selected:backdrop,
 .content-view.view:selected:backdrop {
     background-color: @backdrop_selected_bg_color;
 }
@@ -981,6 +985,16 @@ menuitem > box > image + label {
 /************
  * notebook *
  ************/
+
+notebook {
+    padding: 0;
+    background-clip: border-box;
+}
+
+notebook.frame {
+    background-clip: border-box;
+}
+
 notebook header.top tab { padding: 4px 6px 2px 6px; }
 notebook header.top tab:checked { padding-bottom: 3px; }
 notebook header.bottom tab { padding: 2px 6px 4px 6px; }
