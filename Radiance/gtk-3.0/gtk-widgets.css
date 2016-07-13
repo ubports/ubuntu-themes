@@ -622,7 +622,8 @@ frame > box.vertical > scrolledwindow.frame {
 /************
  * iconview *
  ************/
-.view {
+
+iconview.view {
     background-color: @base_color;
     color: @text_color;
 }
@@ -644,7 +645,8 @@ iconview.view.cell:selected:focus {
                 inset 0 -1px shade (@selected_bg_color, 1.0);
 }
 
-iconview .rubberband {
+.rubberband,
+rubberband {
     background-color: alpha (@selected_bg_color, 0.35);
     border-color: @selected_bg_color;
     border-radius: 0;
