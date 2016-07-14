@@ -636,7 +636,7 @@ frame > box.vertical > scrolledwindow.frame {
  * iconview *
  ************/
 
-iconview.view {
+.view {
     background-color: @base_color;
     color: @text_color;
 }
