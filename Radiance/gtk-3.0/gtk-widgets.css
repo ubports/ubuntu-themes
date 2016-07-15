@@ -1505,6 +1505,10 @@ scrollbar {
     -GtkScrollbar-has-forward-stepper: 0;
 }
 
+scrollbar slider {
+    background-color: @scrollbar_track_color;
+}
+
 .scrollbar.vertical slider,
 scrollbar.vertical slider {
     min-height: 15px;
@@ -1529,7 +1533,7 @@ scrollbar.horizontal:hover slider {
 
 .scrollbar.contents,
 scrollbar contents {
-    background-color: @scrollbar_track_color;
+    background-color: transparent;
     background-image: none;
     background-size: 0;
     border: none;
@@ -1538,6 +1542,7 @@ scrollbar contents {
 
 .scrollbar.trough,
 scrollbar trough {
+    background-image: none;
     border: none;
 }
 
