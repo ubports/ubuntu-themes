@@ -1,3 +1,16 @@
+ubuntu-themes (14.04+16.10.20160720-0ubuntu1) yakkety; urgency=medium
+
+  [ Alberts Muktupāvels ]
+  * Simplify Metacity theme by replacing solid color image with filled
+    rectangle to improve HiDPI support. (LP: #1603218)
+
+  [ Matthieu James ]
+  * [Suru icons] Added the keyboard indicators in a dedicated folder.
+  * [Suru icons] Added mono arrow icons for the toolkit widgets: up,
+    down, left, right and scrollbar stepper.
+
+ -- Dmitry Shachnev <mitya57@ubuntu.com>  Wed, 20 Jul 2016 18:01:01 +0000
+
 ubuntu-themes (14.04+16.10.20160706-0ubuntu1) yakkety; urgency=medium
 
   [ will@whizzy.org ]
