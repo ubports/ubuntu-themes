@@ -3,7 +3,7 @@ Name=Suru
 Comment=Ubuntu Touch icon theme
 Inherits=Humanity,ubuntu-mobile,hicolor,gnome
 
-Directories=actions/scalable,apps/128,apps/256,apps/512,apps/scalable,devices/scalable,mimetypes/scalable,places/48,places/128,places/256,places/512,places/scalable,status/128,status/256,status/512,status/scalable,toolkit/scalable
+Directories=actions/scalable,apps/128,apps/256,apps/512,apps/scalable,devices/scalable,mimetypes/scalable,places/48,places/128,places/256,places/512,places/scalable,status/128,status/256,status/512,status/scalable,toolkit/scalable,lang/scalable
 
 [actions/scalable]
 MinSize=16
@@ -104,4 +104,10 @@ MaxSize=512
 Context=Status
 Type=Scalable
 
+[lang/scalable]
+MinSize=16
+Size=96
+MaxSize=512
+Context=Status
+Type=Scalable
 
