@@ -216,10 +216,10 @@
   <image filename="trough_unfocused_left.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
 <draw_ops name="left_middle_background_unfocused_normal">
-  <image filename="trough_unfocused_middle.png" x="0" y="1" width="object_width" height="object_height"/>
+  <rectangle color="#3c3b37" filled="true" x="0" y="1" width="width" height="height"/>
 </draw_ops>
 <draw_ops name="left_middle_background_unfocused_pressed">
-  <image filename="trough_unfocused_middle.png" x="0" y="1" width="object_width" height="object_height"/>
+  <rectangle color="#3c3b37" filled="true" x="0" y="1" width="width" height="height"/>
 </draw_ops>
 <draw_ops name="left_right_background_unfocused_normal">
   <image filename="trough_unfocused_right.png" x="0" y="1" width="object_width" height="object_height"/>
@@ -254,10 +254,10 @@
   <image filename="trough_unfocused_left.png" x="0" y="1" width="object_width" height="object_height"/>
 </draw_ops>
 <draw_ops name="right_middle_background_unfocused_normal">
-  <image filename="trough_unfocused_middle.png" x="0" y="1" width="object_width" height="object_height"/>
+  <rectangle color="#3c3b37" filled="true" x="0" y="1" width="width" height="height"/>
 </draw_ops>
 <draw_ops name="right_middle_background_unfocused_pressed">
-  <image filename="trough_unfocused_middle.png" x="0" y="1" width="object_width" height="object_height"/>
+  <rectangle color="#3c3b37" filled="true" x="0" y="1" width="width" height="height"/>
 </draw_ops>
 <draw_ops name="right_right_background_unfocused_normal">
   <image filename="trough_unfocused_right.png" x="0" y="1" width="object_width" height="object_height"/>
