@@ -1,6 +1,9 @@
 ubuntu-themes (16.10.20160720-0ubuntu1) UNRELEASED; urgency=medium
 
   * Fix version scheme
+  * Ambiance, Radiance: Port to work with GTK 3.20. (LP: #1593048)
+  * debian/control: We're not going to work with GTK < 3.20 any more, so
+    declare a Breaks.
 
  -- Iain Lane <iain.lane@canonical.com>  Fri, 29 Jul 2016 17:03:38 +0100
 
