@@ -1,4 +1,4 @@
-ubuntu-themes (16.10.20160720-0ubuntu1) UNRELEASED; urgency=medium
+ubuntu-themes (16.10+16.10.20160720-0ubuntu1) UNRELEASED; urgency=medium
 
   * Fix version scheme
   * Ambiance, Radiance: Port to work with GTK 3.20. (LP: #1593048)
