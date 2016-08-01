@@ -53,8 +53,6 @@ PanelAppletFrame {
 
 PanelApplet .button:backdrop,
 PanelApplet .button {
-    -GtkButton-inner-border: 2;
-
     border-image: none;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.5)),
@@ -68,8 +66,8 @@ PanelApplet .button {
     text-shadow: none;
 }
 
-PanelApplet .button:active:prelight:backdrop,
-PanelApplet .button:active:prelight,
+PanelApplet .button:active:hover:backdrop,
+PanelApplet .button:active:hover,
 PanelApplet .button:active:backdrop,
 PanelApplet .button:active {
     border-image: none;
@@ -79,8 +77,8 @@ PanelApplet .button:active {
     border-color: shade (@dark_bg_color, 0.9);
 }
 
-PanelApplet .button:prelight:backdrop,
-PanelApplet .button:prelight {
+PanelApplet .button:hover:backdrop,
+PanelApplet .button:hover {
     border-image: none;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.7)),
@@ -95,13 +93,13 @@ PanelApplet .button:checked {
                                      to (shade (@dark_bg_color, 1.1)));
 }
 
-PanelApplet .button:checked:prelight {
+PanelApplet .button:checked:hover {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.15)),
                                      to (shade (@dark_bg_color, 1.3)));
 }
 
-PanelApplet .button:checked:prelight:active {
+PanelApplet .button:checked:hover:active {
     border-image: none;
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 0.75)),

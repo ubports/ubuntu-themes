@@ -51,8 +51,8 @@ TerminalWindow GtkNotebook.notebook {
 }
 
 .nautilus-inactive-pane .nautilus-canvas-item:selected {
-    background-color: @theme_unfocused_selected_bg_color;
-    color: @theme_unfocused_selected_fg_color;
+    background-color: @theme_unfocus_selected_bg_color;
+    color: @theme_unfocus_selected_fg_color;
 }
 
 .nautilus-desktop.nautilus-canvas-item {
@@ -69,7 +69,7 @@ TerminalWindow GtkNotebook.notebook {
 }
 
 .nautilus-desktop.nautilus-canvas-item:active,
-.nautilus-desktop.nautilus-canvas-item:prelight,
+.nautilus-desktop.nautilus-canvas-item:hover,
 .nautilus-desktop.nautilus-canvas-item:selected {
     text-shadow: none;
 }
@@ -92,7 +92,7 @@ NautilusQueryEditor.info {
 
 .nautilus-cluebar-label:backdrop {
     font: bold;
-    color: @theme_unfocused_fg_color;
+    color: @theme_unfocus_fg_color;
     text-shadow: none;
 }
 
@@ -146,8 +146,8 @@ NautilusWindow > GtkGrid > .pane-separator:backdrop,
 NautilusWindow > GtkGrid > .pane-separator:hover:backdrop {
     border-width: 1px 1px 0 0;
     border-style: solid;
-    border-color: @unfocused_borders;
-    background-color: @sidebar_bg_unfocused;
+    border-color: @unfocus_borders;
+    background-color: @sidebar_bg_unfocus;
     color: shade (@theme_bg_color, 0.9);
 }
 
@@ -208,30 +208,30 @@ GeditWindow .notebook tab {
 }
 
 .documents-dropdown .radio,
-.documents-dropdown .radio:focused,
+.documents-dropdown .radio:focus,
 .documents-dropdown .radio:selected {
     background-image: none;
     background-color: alpha(@theme_base_color, 0.0);
 }
 
 .documents-dropdown .radio:active,
-.documents-dropdown .radio:active:focused,
-.documents-dropdown .radio:active:prelight {
+.documents-dropdown .radio:active:focus,
+.documents-dropdown .radio:active:hover {
     background-image: url("assets/sidebar-radio-checked.svg");
 }
 
-.documents-dropdown .radio:prelight {
-    background-image: url("assets/sidebar-radio-prelight.svg");
+.documents-dropdown .radio:hover {
+    background-image: url("assets/sidebar-radio-hover.svg");
 }
 
 .documents-dropdown .radio:active:selected,
-.documents-dropdown .radio:active:selected:focused {
+.documents-dropdown .radio:active:selected:focus {
     background-image: url("assets/sidebar-radio-selected.svg");
 }
 
-.documents-dropdown .radio:selected:prelight,
-.documents-dropdown .radio:selected:focused {
-    background-image: url("assets/sidebar-radio-selected-prelight.svg");
+.documents-dropdown .radio:selected:hover,
+.documents-dropdown .radio:selected:focus {
+    background-image: url("assets/sidebar-radio-selected-hover.svg");
 }
 
 .documents-load-more.button {
@@ -355,7 +355,7 @@ GeditWindow .notebook tab {
 }
 
 .documents-osd .toolbar .button,
-.documents-osd .toolbar .button:prelight,
+.documents-osd .toolbar .button:hover,
 .documents-osd .toolbar .button:active {
     background-color: transparent;
 }
@@ -443,7 +443,7 @@ GeditWindow .notebook tab {
 }
 
 EphyToolbar.toolbar:backdrop {
-    border-bottom: 1 solid @unfocused_borders;
+    border-bottom: 1 solid @unfocus_borders;
 }
 */
 
