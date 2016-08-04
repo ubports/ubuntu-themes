@@ -1,9 +1,10 @@
-ubuntu-themes (16.10+16.10.20160720-0ubuntu1) UNRELEASED; urgency=medium
+ubuntu-themes (16.10+16.10.20160804-0ubuntu1) yakkety; urgency=medium
 
+  [ Iain Lane ]
   * Fix version scheme
   * Ambiance, Radiance: Port to work with GTK 3.20. (LP: #1593048)
 
- -- Iain Lane <iain.lane@canonical.com>  Fri, 29 Jul 2016 17:03:38 +0100
+ -- iain@orangesquash.org.uk <iain@orangesquash.org.uk>  Thu, 04 Aug 2016 16:38:36 +0000
 
 ubuntu-themes (14.04+16.10.20160720-0ubuntu1) yakkety; urgency=medium
 
