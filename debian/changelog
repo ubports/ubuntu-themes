@@ -1,3 +1,10 @@
+ubuntu-themes (16.10+16.10.20160720-0ubuntu1) UNRELEASED; urgency=medium
+
+  * Fix version scheme
+  * Ambiance, Radiance: Port to work with GTK 3.20. (LP: #1593048)
+
+ -- Iain Lane <iain.lane@canonical.com>  Fri, 29 Jul 2016 17:03:38 +0100
+
 ubuntu-themes (14.04+16.10.20160720-0ubuntu1) yakkety; urgency=medium
 
   [ Alberts Muktupāvels ]
@@ -34,23 +41,6 @@ ubuntu-themes (14.04+16.10.20160615.1-0ubuntu1) yakkety; urgency=medium
   * [Suru icons] Added view-rotate icon for Media Services.
 
  -- Michael Terry <michael.terry@canonical.com>  Wed, 15 Jun 2016 19:52:44 +0000
-
-ubuntu-themes (14.04+16.10.20160613-0ubuntu1) yakkety; urgency=medium
-
-  [ Matthieu James ]
-  * [Suru icons] Added location indicator icons for inactive, idle and
-    active states. (LP: #1407921)
-
- -- marcus.tomlinson@canonical.com <marcus.tomlinson@canonical.com>  Mon, 13 Jun 2016 05:24:33 +0000
-
-ubuntu-themes (14.04+16.04.20160426-0ubuntu2) yakkety; urgency=medium
-
-  [ Will Cooke ]
-  * Adds Terminal specific CSS to change tab colours making it easier to
-    distinguish the current selected tab from the others. Design have reviewed
-    and ack'd. LP: #762349
-
- -- Iain Lane <iain.lane@canonical.com>  Tue, 24 May 2016 10:21:12 +0100
 
 ubuntu-themes (14.04+16.04.20160426-0ubuntu1) xenial; urgency=medium
 
