@@ -1,3 +1,10 @@
+ubuntu-themes (16.10+16.10.20160808-0ubuntu1) yakkety; urgency=medium
+
+  [ Matthieu James ]
+  * [Suru icons] Added Owncloud icon for online accounts. (LP: #1571587)
+
+ -- Renato Araujo Oliveira Filho <renato.filho@canonical.com>  Mon, 08 Aug 2016 19:20:07 +0000
+
 ubuntu-themes (16.10+16.10.20160804-0ubuntu1) yakkety; urgency=medium
 
   [ Iain Lane ]
