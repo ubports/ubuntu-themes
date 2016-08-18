@@ -160,29 +160,35 @@
 }
 
 .check:inconsistent:backdrop {
-    -gtk-icon-source: url("assets/backdrop-check-mixed.png");
+    -gtk-icon-source: -gtk-scaled(url("assets/backdrop-check-mixed.png"),
+                                  url("assets/backdrop-check-mixed@2.png"));
 }
 
 .check:inconsistent:hover:backdrop {
-    -gtk-icon-source: url("assets/backdrop-check-mixed-hover.png");
+    -gtk-icon-source: -gtk-scaled(url("assets/backdrop-check-mixed-hover.png"),
+                                  url("assets/backdrop-check-mixed-hover@2.png"));
 }
 
 .check row:inconsistent:backdrop,
 .check row:selected:inconsistent:backdrop {
-    -gtk-icon-source: url("assets/backdrop-check-mixed-alt.png");
+    -gtk-icon-source: -gtk-scaled(url("assets/backdrop-check-mixed-alt.png"),
+                                  url("assets/backdrop-check-mixed-alt@2.png"));
 }
 
 .check row:inconsistent:hover:backdrop,
 .check row:selected:inconsistent:hover:backdrop {
-    -gtk-icon-source: url("assets/backdrop-check-mixed-hover-alt.png");
+    -gtk-icon-source: -gtk-scaled(url("assets/backdrop-check-mixed-hover-alt.png"),
+                                  url("assets/backdrop-check-mixed-hover-alt@2.png"));
 }
 
 .check:inconsistent:insensitive:backdrop {
-    -gtk-icon-source: url("assets/backdrop-check-mixed-disabled.png");
+    -gtk-icon-source: -gtk-scaled(url("assets/backdrop-check-mixed-disabled.png"),
+                                  url("assets/backdrop-check-mixed-disabled@2.png"));
 }
 
 .check row:selected:inconsistent:insensitive:backdrop {
-    -gtk-icon-source: url("assets/backdrop-check-mixed-disabled-alt.png");
+    -gtk-icon-source: -gtk-scaled(url("assets/backdrop-check-mixed-disabled-alt.png"),
+                                  url("assets/backdrop-check-mixed-disabled-alt@2.png"));
 }
 
 .radio {
