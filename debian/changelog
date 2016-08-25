@@ -1,3 +1,9 @@
+ubuntu-themes (16.10+16.10.20160825.1-0ubuntu1) yakkety; urgency=medium
+
+  * Radiance: fix colors and clock applet shadow for gnome-panel.
+
+ -- Dmitry Shachnev <mitya57@ubuntu.com>  Thu, 25 Aug 2016 17:35:20 +0000
+
 ubuntu-themes (16.10+16.10.20160823-0ubuntu1) yakkety; urgency=medium
 
   [ Alberts Muktupāvels ]
