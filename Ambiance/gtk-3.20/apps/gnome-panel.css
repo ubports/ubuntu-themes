@@ -6,8 +6,8 @@ panel-plug {
                                      to (shade (@dark_bg_color, 1.05)));
 }
 
-.gnome-panel-menu-bar:backdrop,
-.gnome-panel-menu-bar,
+.gnome-panel-menu-bar:backdrop:not(.unity-panel):not(.unity-decoration),
+.gnome-panel-menu-bar:not(.unity-panel):not(.unity-decoration),
 panel-applet > menubar,
 clock-box {
     background: transparent;
