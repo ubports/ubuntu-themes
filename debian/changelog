@@ -1,3 +1,15 @@
+ubuntu-themes (16.10+16.10.20160829.3-0ubuntu1) yakkety; urgency=medium
+
+  [ Alberts Muktupāvels ]
+  * Remove box-shadow from .background:backdrop.
+  * Fix jumping menu items. (LP: #1617415)
+
+  [ Dmitry Shachnev ]
+  * Added styling for gnome-flashback: OSD windows, input source
+    switching, candidate popups and monitor labels.
+
+ -- Dmitry Shachnev <mitya57@ubuntu.com>  Mon, 29 Aug 2016 18:42:30 +0000
+
 ubuntu-themes (16.10+16.10.20160829.2-0ubuntu1) yakkety; urgency=medium
 
   [ Iain Lane ]
