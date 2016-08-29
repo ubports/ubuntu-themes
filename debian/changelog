@@ -1,3 +1,16 @@
+ubuntu-themes (16.10+16.10.20160829.2-0ubuntu1) yakkety; urgency=medium
+
+  [ Iain Lane ]
+  * gedit: Don't set a border on the 'x of y' thing in the search
+    results
+  * Set a proper minimum width on levelbar troughs
+
+  [ Marco Trevisan (Treviño) ]
+  * gnome-panel: don't apply the gnome-menubar rules to unity
+    decorations and panel too (LP: #1617371)
+
+ -- Marco Trevisan (Treviño) <mail@3v1n0.net>  Mon, 29 Aug 2016 10:10:10 +0000
+
 ubuntu-themes (16.10+16.10.20160825.1-0ubuntu1) yakkety; urgency=medium
 
   * Radiance: fix colors and clock applet shadow for gnome-panel.
