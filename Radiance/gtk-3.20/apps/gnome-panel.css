@@ -6,8 +6,8 @@ panel-plug {
                                      to (shade (@dark_bg_color, 0.95)));
 }
 
-.gnome-panel-menu-bar:backdrop,
-.gnome-panel-menu-bar,
+panel-toplevel .gnome-panel-menu-bar:backdrop,
+panel-toplevel .gnome-panel-menu-bar,
 panel-applet > menubar,
 clock-box {
     background: transparent;
