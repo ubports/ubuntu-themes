@@ -1254,14 +1254,16 @@ trough.vertical {
 
 /* level bars as used for password quality or remaining power */
 
-levelbar {
-    min-width: 34px;
+levelbar,
+levelbar trough {
+    min-width: 150px;
     min-height: 5px;
 }
 
-levelbar.vertical {
+levelbar.vertical,
+levelbar.vertical trough {
     min-width: 5px;
-    min-height: 34px;
+    min-height: 150px;
 }
 
 levelbar trough {
