@@ -1,3 +1,9 @@
+ubuntu-themes (16.10+16.10.20160829.3-0ubuntu2) yakkety; urgency=medium
+
+  * fix gtk3 toolbar theming for LibreOffice (LP: #1580537)
+
+ -- Bjoern Michaelsen <bjoern.michaelsen@canonical.com>  Tue, 30 Aug 2016 11:40:49 +0200
+
 ubuntu-themes (16.10+16.10.20160829.3-0ubuntu1) yakkety; urgency=medium
 
   [ Alberts Muktupāvels ]
