@@ -1,3 +1,10 @@
+ubuntu-themes (16.10+16.10.20160908-0ubuntu1) yakkety; urgency=medium
+
+  [ Iain Lane ]
+  * Fix combobox menus having a black line down the left hand side
+
+ -- iain@orangesquash.org.uk <iain@orangesquash.org.uk>  Thu, 08 Sep 2016 14:43:10 +0000
+
 ubuntu-themes (16.10+16.10.20160829.3-0ubuntu2) yakkety; urgency=medium
 
   * fix gtk3 toolbar theming for LibreOffice (LP: #1580537)
