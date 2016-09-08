@@ -793,6 +793,7 @@ combobox menu {
     background-color: @bg_color;
     border-bottom-color: shade (@bg_color, 0.66);
     border-right-color: shade (@bg_color, 0.7);
+    border-left-color: shade (@bg_color, 0.7);
     border-top-color: shade (@bg_color, 0.8);
     border-style: solid;
     padding: 0;
