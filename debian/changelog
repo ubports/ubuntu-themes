@@ -1,3 +1,16 @@
+ubuntu-themes (16.10+16.10.20160926-0ubuntu1) yakkety; urgency=medium
+
+  [ Iain Lane ]
+  * Fix some syntax errors, and use a maintainer script to move the
+    Radiance/gtk-3.0/assets directory to a symlink
+
+  [ will@whizzy.org ]
+  * Improvements for HiDPI.  Includes new icons and moves a lot of
+    assets to use gtk-scaled to suit both normal and hidpi resolutions.
+    (LP: #1549490)
+
+ -- iain@orangesquash.org.uk <iain@orangesquash.org.uk>  Mon, 26 Sep 2016 13:39:57 +0000
+
 ubuntu-themes (16.10+16.10.20160908-0ubuntu1) yakkety; urgency=medium
 
   [ Iain Lane ]
