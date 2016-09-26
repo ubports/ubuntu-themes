@@ -257,8 +257,8 @@
 .radio row:insensitive,
 .radio row:selected:insensitive,
 .radio row:selected:focus:insensitive {
-    -gtk-icon-source: url("assets/radio-unselected-disabled-alt.png"),
-                      url("assets/radio-unselected-disabled-alt@2.png"));
+    -gtk-icon-source: -gtk-scaled(url("assets/radio-unselected-disabled-alt.png"),
+                                  url("assets/radio-unselected-disabled-alt@2.png"));
 }
 
 .radio:backdrop {
@@ -285,7 +285,7 @@
 
 .radio:insensitive:backdrop {
     -gtk-icon-source: -gtk-scaled(url("assets/backdrop-radio-unselected-disabled.png"),
-                                  url("assets/backdrop-radio-unselected-disabled@2.png");
+                                  url("assets/backdrop-radio-unselected-disabled@2.png"));
 }
 
 .radio row:selected:insensitive:backdrop {
@@ -544,8 +544,8 @@
 
 .scale.slider:hover:focused,
 .scale.slider.horizontal:hover:focused {
-    background-image: url("assets/slider-horizontal-focused-hover.png"),
-                      url("assets/slider-horizontal-focused-hover@2.png"));
+    background-image: -gtk-scaled(url("assets/slider-horizontal-focused-hover.png"),
+                                  url("assets/slider-horizontal-focused-hover@2.png"));
 }
 
 .scale.slider:insensitive,

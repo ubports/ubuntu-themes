@@ -201,7 +201,7 @@ check:indeterminate:hover:backdrop {
 
 check row:indeterminate:backdrop,
 check row:selected:indeterminate:backdrop {
-    -gtk-icon-source: -gtk-scaled(url("assets/backdrop-check-mixed-alt.png")
+    -gtk-icon-source: -gtk-scaled(url("assets/backdrop-check-mixed-alt.png"),
                                   url("assets/backdrop-check-mixed-alt@2.png"));
 }
 

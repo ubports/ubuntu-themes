@@ -54,7 +54,7 @@ check row:selected:focus:disabled {
 }
 
 check:backdrop {
-    -gtk-icon-source: -gtk-scaled(url("assets/backdrop-check-unselected.png")
+    -gtk-icon-source: -gtk-scaled(url("assets/backdrop-check-unselected.png"),
                                   url("assets/backdrop-check-unselected@2.png"));
 }
 

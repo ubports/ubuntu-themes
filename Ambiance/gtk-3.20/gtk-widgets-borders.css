@@ -191,7 +191,7 @@ trough {
 }
 
 switch {
-    border-image: -gtk-scaled(url("assets/switch-trough-off.png",url("assets/switch-trough-off@2.png")) 10 12 10 12 / 10px 12px 10px 12px stretch;
+    border-image: -gtk-scaled(url("assets/switch-trough-off.png"),url("assets/switch-trough-off@2.png")) 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
 switch:checked {

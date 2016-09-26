@@ -125,7 +125,7 @@ GtkAssistant .sidebar {
 }
 
 .button:focus {
-    border-image-source: -gtk-scaled(url("assets/button-focused.png"),.
+    border-image-source: -gtk-scaled(url("assets/button-focused.png"),
                                      url("assets/button-focused@2.png"));
 }
 
@@ -202,7 +202,7 @@ GtkAssistant .sidebar {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (#e3e3e3),
                                      to (#f3f3f3));
-    border-image-source: -gtk-scaled(url("assets/button-active-disabled.png")
+    border-image-source: -gtk-scaled(url("assets/button-active-disabled.png"),
                                      url("assets/button-active-disabled@2.png"));
 }
 
@@ -1795,7 +1795,7 @@ GtkTextView {
 .primary-toolbar .button:checked:backdrop,
 .header-bar .button:active:backdrop,
 .header-bar .button:checked:backdrop {
-    border-image-source: -gtk-scaled(url("assets/radiance-backdrop-button-toolbar-active.png")
+    border-image-source: -gtk-scaled(url("assets/radiance-backdrop-button-toolbar-active.png"),
                                      url("assets/radiance-backdrop-button-toolbar-active.png"));
 }
 
