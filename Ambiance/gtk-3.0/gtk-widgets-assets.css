@@ -472,7 +472,7 @@
 .menu .radio:checked,
 .menu .radio:checked:hover {
     -gtk-icon-source: -gtk-scaled(url("assets/radio-menuitem.png"),
-                                  url("assets/radio-menuitem@2.png"),);
+                                  url("assets/radio-menuitem@2.png"));
 }
 
 .primary-toolbar .menu .radio:checked:insensitive,
