@@ -161,7 +161,7 @@ button:active:disabled {
                                      from (#e3e3e3),
                                      to (#f3f3f3));
     border-image-source: -gtk-scaled(url("assets/button-active-disabled.png"),
-                                     url("assets/button-active-disabled@2.png");
+                                     url("assets/button-active-disabled@2.png"));
 }
 
 button:checked:backdrop {
@@ -2184,7 +2184,7 @@ headerbar button:backdrop:checked {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.2)),
                                      to (shade (@dark_bg_color, 1.1)));
-    border-image-source: -gtk-scaled(url("assets/radiance-backdrop-button-toolbar.png")
+    border-image-source: -gtk-scaled(url("assets/radiance-backdrop-button-toolbar.png"),
                                      url("assets/radiance-backdrop-button-toolbar@2.png"));
 }
 
