@@ -81,7 +81,7 @@
 }
 
 .check row:selected:insensitive:backdrop {
-    -gtk-icon-source: -gtk-scaled(url("assets/backdrop-check-unselected-disabled-alt.png")
+    -gtk-icon-source: -gtk-scaled(url("assets/backdrop-check-unselected-disabled-alt.png"),
                                   url("assets/backdrop-check-unselected-disabled-alt@2.png"));
 }
 
@@ -471,7 +471,7 @@
 .toolbar .menu .radio:checked:hover,
 .menu .radio:checked,
 .menu .radio:checked:hover {
-    -gtk-icon-source: -gtk-scaled(url("assets/radio-menuitem.png")
+    -gtk-icon-source: -gtk-scaled(url("assets/radio-menuitem.png"),
                                   url("assets/radio-menuitem@2.png"),);
 }
 
