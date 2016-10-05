@@ -1,3 +1,10 @@
+ubuntu-themes (16.10+16.10.20161005-0ubuntu1) yakkety; urgency=medium
+
+  [ Alberts Muktupāvels ]
+  * gnome-panel.css: Fix weather applet text color. (LP: #1629983)
+
+ -- Dmitry Shachnev <mitya57@ubuntu.com>  Wed, 05 Oct 2016 17:59:11 +0000
+
 ubuntu-themes (16.10+16.10.20160926-0ubuntu1) yakkety; urgency=medium
 
   [ Iain Lane ]
