@@ -9,6 +9,7 @@ panel-plug {
 panel-toplevel .gnome-panel-menu-bar:backdrop,
 panel-toplevel .gnome-panel-menu-bar,
 panel-applet > menubar,
+panel-applet,
 clock-box {
     background: transparent;
     color: @dark_fg_color;
