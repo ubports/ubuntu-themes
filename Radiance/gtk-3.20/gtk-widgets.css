@@ -248,30 +248,30 @@ combobox:only-child entry + box.linked button {
     border-radius: 8px;
 }
 
-.primary-toolbar .linked button,
+.primary-toolbar:not(.libreoffice-toolbar) .linked button,
 headerbar .linked button {
     box-shadow: inset 1px 0 shade (@dark_bg_color, 1.4),
                 inset -1px 0 shade (@dark_bg_color, 0.9);
 }
 
-.primary-toolbar .linked button:first-child,
+.primary-toolbar:not(.libreoffice-toolbar) .linked button:first-child,
 headerbar .linked button:first-child {
     box-shadow: inset -1px 0 shade (@dark_bg_color, 0.9);
 }
 
-.primary-toolbar .linked button:last-child,
+.primary-toolbar:not(.libreoffice-toolbar) .linked button:last-child,
 headerbar .linked button:last-child {
     box-shadow: inset 1px 0 shade (@dark_bg_color, 1.4)
 }
 
-.primary-toolbar .linked button:active,
+.primary-toolbar:not(.libreoffice-toolbar) .linked button:active,
 headerbar .linked button:active,
-.primary-toolbar .linked button:disabled,
+.primary-toolbar:not(.libreoffice-toolbar) .linked button:disabled,
 headerbar .linked button:disabled {
     box-shadow: inset 1px 0 shade (@dark_bg_color, 0.9);
 }
 
-.primary-toolbar .linked button:only-child,
+.primary-toolbar:not(.libreoffice-toolbar) .linked button:only-child,
 headerbar .linked button:only-child {
     box-shadow: none;
 }
@@ -557,7 +557,7 @@ entry > image.right {
     padding-left: 5px;
 }
 
-.primary-toolbar entry progress,
+.primary-toolbar:not(.libreoffice-toolbar) entry progress,
 headerbar entry progress {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@selected_bg_color, 0.8)),
@@ -775,7 +775,7 @@ iconview.cell {
  * menu *
  ********/
 toolbar headerbar menu,
-.primary-toolbar button menu,
+.primary-toolbar:not(.libreoffice-toolbar) button menu,
 headerbar button menu,
 menu {
     background-image: none;
@@ -935,8 +935,8 @@ toolbar headerbar menu menuitem:disabled,
 toolbar headerbar menu menuitem *:disabled,
 toolbutton menu menuitem:disabled,
 toolbutton menu menuitem *:disabled,
-.primary-toolbar button menu menuitem:disabled,
-.primary-toolbar button menu menuitem *:disabled,
+.primary-toolbar:not(.libreoffice-toolbar) button menu menuitem:disabled,
+.primary-toolbar:not(.libreoffice-toolbar) button menu menuitem *:disabled,
 headerbar button menu menuitem:disabled,
 headerbar button menu menuitem *:disabled,
 menuitem:disabled,
@@ -988,8 +988,8 @@ menuitem entry {
     border-image-width: 1px;
 }
 
-.primary-toolbar scale trough,
-.primary-toolbar scale trough:backdrop,
+.primary-toolbar:not(.libreoffice-toolbar) scale trough,
+.primary-toolbar:not(.libreoffice-toolbar) scale trough:backdrop,
 headerbar scale trough,
 headerbar scale trough:backdrop,
 menuitem scale trough {
@@ -2064,7 +2064,7 @@ headerbar {
 /*******************
  * primary-toolbar *
  *******************/
-.primary-toolbar,
+.primary-toolbar:not(.libreoffice-toolbar),
 headerbar,
 .maximized headerbar.titlebar:not(:backdrop) {
     -GtkWidget-window-dragging: true;
@@ -2088,7 +2088,7 @@ headerbar,
     border-width: 0;
 }
 
-.primary-toolbar:backdrop,
+.primary-toolbar:not(.libreoffice-toolbar):backdrop,
 headerbar:backdrop {
     background-image: none;
     background-color: @dark_bg_color;
@@ -2099,15 +2099,15 @@ headerbar:backdrop {
     color: @backdrop_dark_fg_color;
 }
 
-.primary-toolbar:disabled,
+.primary-toolbar:not(.libreoffice-toolbar):disabled,
 headerbar:disabled {
     text-shadow: 0 -1px shade (@dark_bg_color, 0.7);
 }
 
-.primary-toolbar button,
+.primary-toolbar:not(.libreoffice-toolbar) button,
 headerbar button,
 headerbar button:disabled,
-.primary-toolbar button.flat:hover {
+.primary-toolbar:not(.libreoffice-toolbar) button.flat:hover {
     background: transparent;
     border-image-source: -gtk-scaled(url("assets/radiance-button-toolbar.png"),
                                      url("assets/radiance-button-toolbar@2.png"));
@@ -2115,33 +2115,33 @@ headerbar button:disabled,
     color: @dark_fg_color;
 }
 
-.primary-toolbar button,
+.primary-toolbar:not(.libreoffice-toolbar) button,
 headerbar button *,
 headerbar button:disabled * {
     text-shadow: 0 -1px shade (@dark_bg_color, 0.7);
 }
 
-.primary-toolbar button.flat {
+.primary-toolbar:not(.libreoffice-toolbar) button.flat {
     border-image-source: none;
     background: transparent;
 }
 
-.primary-toolbar button:focus,
+.primary-toolbar:not(.libreoffice-toolbar) button:focus,
 headerbar button:focus {
     border-image-source: -gtk-scaled(url("assets/radiance-button-toolbar-focused.png"),
                                      url("assets/radiance-button-toolbar-focused@2.png"));
 }
 
-.primary-toolbar button:active,
-.primary-toolbar button:checked,
+.primary-toolbar:not(.libreoffice-toolbar) button:active,
+.primary-toolbar:not(.libreoffice-toolbar) button:checked,
 headerbar button:active,
 headerbar button:checked {
     border-image-source: -gtk-scaled(url("assets/radiance-button-toolbar-active.png"),
                                      url("assets/radiance-button-toolbar-active@2.png"));
 }
 
-.primary-toolbar button:active:focus,
-.primary-toolbar button:checked:focus,
+.primary-toolbar:not(.libreoffice-toolbar) button:active:focus,
+.primary-toolbar:not(.libreoffice-toolbar) button:checked:focus,
 headerbar button:active:focus,
 headerbar button:checked:focus,
 headerbar button:hover:focus {
@@ -2149,7 +2149,7 @@ headerbar button:hover:focus {
                                      url("assets/radiance-button-toolbar-active-focused@2.png"));
 }
 
-.primary-toolbar button:backdrop,
+.primary-toolbar:not(.libreoffice-toolbar) button:backdrop,
 headerbar button:backdrop,
 headerbar button:disabled:backdrop,
 headerbar button:checked:backdrop {
@@ -2159,26 +2159,26 @@ headerbar button:checked:backdrop {
                                      url("assets/radiance-backdrop-button-toolbar@2.png"));
 }
 
-.primary-toolbar button:backdrop,
+.primary-toolbar:not(.libreoffice-toolbar) button:backdrop,
 headerbar button:backdrop *,
 headerbar button:disabled:backdrop *,
 headerbar button:checked:backdrop * {
     text-shadow: 0 -1px shade (@dark_bg_color, 0.9);
 }
 
-.primary-toolbar button.flat:backdrop {
+.primary-toolbar:not(.libreoffice-toolbar) button.flat:backdrop {
     border-image-source: none;
 }
 
-.primary-toolbar button:active:backdrop,
-.primary-toolbar button:checked:backdrop,
+.primary-toolbar:not(.libreoffice-toolbar) button:active:backdrop,
+.primary-toolbar:not(.libreoffice-toolbar) button:checked:backdrop,
 headerbar button:active:backdrop {
     border-image-source: -gtk-scaled(url("assets/radiance-backdrop-button-toolbar-active.png"),
                                      url("assets/radiance-backdrop-button-toolbar-active@2.png"));
 }
 
-.primary-toolbar button:hover,
-.primary-toolbar button:checked,
+.primary-toolbar:not(.libreoffice-toolbar) button:hover,
+.primary-toolbar:not(.libreoffice-toolbar) button:checked,
 headerbar button:hover,
 headerbar button:checked,
 headerbar button:backdrop:hover,
@@ -2191,7 +2191,7 @@ headerbar button:backdrop:checked {
                                      url("assets/radiance-backdrop-button-toolbar@2.png"));
 }
 
-.primary-toolbar button:active,
+.primary-toolbar:not(.libreoffice-toolbar) button:active,
 headerbar button:active {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 0.95)),
@@ -2199,14 +2199,14 @@ headerbar button:active {
     text-shadow: 0 -1px shade (@dark_bg_color, 0.6);
 }
 
-.primary-toolbar button:checked:disabled,
-.primary-toolbar button:disabled,
+.primary-toolbar:not(.libreoffice-toolbar) button:checked:disabled,
+.primary-toolbar:not(.libreoffice-toolbar) button:disabled,
 headerbar button:checked:disabled,
 headerbar button:disabled {
     text-shadow: none;
 }
 
-.primary-toolbar button:disabled,
+.primary-toolbar:not(.libreoffice-toolbar) button:disabled,
 headerbar button:disabled {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 1.01)),
@@ -2215,12 +2215,12 @@ headerbar button:disabled {
                                      url("assets/button-toolbar@2.png"));
 }
 
-.primary-toolbar button.flat:disabled {
+.primary-toolbar:not(.libreoffice-toolbar) button.flat:disabled {
     background-image: none;
     border-image-source: inherit;
 }
 
-.primary-toolbar button:checked:disabled,
+.primary-toolbar:not(.libreoffice-toolbar) button:checked:disabled,
 headerbar button:checked:disabled {
     background-image: -gtk-gradient (linear, left top, left bottom,
                                      from (shade (@dark_bg_color, 0.94)),
@@ -2229,9 +2229,9 @@ headerbar button:checked:disabled {
                                      url("assets/button-toolbar@2.png"));
 }
 
-.primary-toolbar separator,
-.primary-toolbar separator,
-.primary-toolbar separator:disabled,
+.primary-toolbar:not(.libreoffice-toolbar) separator,
+.primary-toolbar:not(.libreoffice-toolbar) separator,
+.primary-toolbar:not(.libreoffice-toolbar) separator:disabled,
 headerbar separator,
 headerbar separator:disabled {
     border-color: alpha (shade (@dark_bg_color, 0.94), 0.35);

@@ -1,30 +1,30 @@
 /* Set up shadows and hilights for button visual separation */
-.primary-toolbar .linked button,
+.primary-toolbar:not(.libreoffice-toolbar) .linked button,
 headerbar .linked button {
     box-shadow: inset 1px 0 shade (@dark_bg_color, 1.1),
                 inset -1px 0 shade (@dark_bg_color, 0.9);
 }
 
-.primary-toolbar .linked button:first-child,
+.primary-toolbar:not(.libreoffice-toolbar) .linked button:first-child,
 headerbar .linked button:first-child {
     box-shadow: inset -1px 0 shade (@dark_bg_color, 0.9);
 }
 
-.primary-toolbar .linked button:active,
+.primary-toolbar:not(.libreoffice-toolbar) .linked button:active,
 headerbar .linked button:active,
-.primary-toolbar .linked button:disabled,
+.primary-toolbar:not(.libreoffice-toolbar) .linked button:disabled,
 headerbar .linked button:disabled {
     box-shadow: inset 1px 0 shade (@dark_bg_color, 0.9);
 }
 
-.primary-toolbar .linked button:active,
+.primary-toolbar:not(.libreoffice-toolbar) .linked button:active,
 headerbar .linked button:active,
-.primary-toolbar .linked button:disabled,
+.primary-toolbar:not(.libreoffice-toolbar) .linked button:disabled,
 headerbar .linked button:disabled {
     box-shadow: inset -1px 0 shade (@dark_bg_color, 0.9);
 }
 
-.primary-toolbar .linked button:last-child,
+.primary-toolbar:not(.libreoffice-toolbar) .linked button:last-child,
 headerbar .linked button:last-child {
     box-shadow: inset 1px 0 shade (@dark_bg_color, 1.1);
 }
@@ -53,8 +53,8 @@ toolbar headerbar menu menuitem:disabled,
 toolbar headerbar menu menuitem *:disabled,
 toolbutton menu menuitem:disabled,
 toolbutton menu menuitem *:disabled,
-.primary-toolbar button menu menuitem:disabled,
-.primary-toolbar button menu menuitem *:disabled,
+.primary-toolbar:not(.libreoffice-toolbar) button menu menuitem:disabled,
+.primary-toolbar:not(.libreoffice-toolbar) button menu menuitem *:disabled,
 headerbar button menu menuitem:disabled,
 headerbar button menu menuitem *:disabled,
 menuitem:disabled,
@@ -70,7 +70,7 @@ menu spinner:hover {
 }
 
 /* primary-toolbar */
-.primary-toolbar,
+.primary-toolbar:not(.libreoffice-toolbar),
 headerbar,
 .maximized headerbar.titlebar:not(:backdrop) {
     background-image: -gtk-gradient (linear, left top, left bottom,
@@ -82,20 +82,20 @@ headerbar,
     text-shadow: 0 1px shade (@dark_bg_color, 1.1);
 }
 
-.primary-toolbar:disabled,
+.primary-toolbar:not(.libreoffice-toolbar):disabled,
 headerbar:disabled {
     text-shadow: 0 1px shade (@dark_bg_color, 1.1);
 }
 
-.primary-toolbar button,
+.primary-toolbar:not(.libreoffice-toolbar) button,
 headerbar button *,
 headerbar button:disabled * {
     text-shadow: 0 1px alpha (shade (@dark_bg_color, 1.25), 0.32);
 }
 
-.primary-toolbar button:hover,
-.primary-toolbar button:active,
-.primary-toolbar button:disabled,
+.primary-toolbar:not(.libreoffice-toolbar) button:hover,
+.primary-toolbar:not(.libreoffice-toolbar) button:active,
+.primary-toolbar:not(.libreoffice-toolbar) button:disabled,
 headerbar button:hover,
 headerbar button:backdrop:hover,
 headerbar button:active,
