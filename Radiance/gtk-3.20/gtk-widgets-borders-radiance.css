@@ -1,4 +1,4 @@
-.primary-toolbar:not(.libreoffice-toolbar) .entry,
+.primary-toolbar .entry,
 menubar toolbar entry,
 headerbar entry {
     border-image: -gtk-scaled(url("assets/radiance-entry-toolbar.png"),url("assets/radiance-entry-toolbar@2.png")) 10 12 10 12 / 10px 12px 10px 12px stretch;
@@ -10,8 +10,8 @@ headerbar entry:focus {
     border-image: -gtk-scaled(url("assets/radiance-entry-toolbar-focused.png"),url("assets/radiance-entry-toolbar-focused@2.png")) 10 12 10 12 / 10px 12px 10px 12px stretch;
 }
 
-.primary-toolbar:not(.libreoffice-toolbar) combobox entry button,
-.primary-toolbar:not(.libreoffice-toolbar) combobox entry button:focus:disabled,
+.primary-toolbar combobox entry button,
+.primary-toolbar combobox entry button:focus:disabled,
 menubar toolbar combobox entry button,
 menubar toolbar combobox entry button:focus:disabled,
 headerbar combobox entry button,
@@ -19,13 +19,13 @@ headerbar combobox entry button:focus:disabled {
     border-image: url("assets/radiance-combobox-button-toolbar.png") 10 12 10 1 / 10px 12px 10px 1px stretch;
 }
 
-.primary-toolbar:not(.libreoffice-toolbar) combobox entry button:focus,
+.primary-toolbar combobox entry button:focus,
 menubar toolbar combobox entry button:focus,
 headerbar combobox entry button:focus {
     border-image: url("assets/radiance-combobox-button-toolbar-focused.png") 10 12 10 1 / 10px 12px 10px 1px stretch;
 }
 
-.primary-toolbar:not(.libreoffice-toolbar) combobox entry button:focus:active:focus,
+.primary-toolbar combobox entry button:focus:active:focus,
 menubar toolbar combobox entry button:focus:active:focus,
 headerbar combobox entry button:focus:active:focus {
     border-image: url("assets/radiance-combobox-button-toolbar-pressed-focused.png") 10 12 10 1 / 10px 12px 10px 1px stretch;

@@ -429,7 +429,7 @@ radio row:selected:indeterminate:disabled:backdrop {
                                   url("assets/backdrop-radio-mixed-disabled-alt@2.png"));
 }
 
-.primary-toolbar:not(.libreoffice-toolbar) menu check,
+.primary-toolbar menu check,
 menubar toolbar menu check,
 headerbar menu check,
 menu check,
@@ -440,7 +440,7 @@ menu check:indeterminate:not(:checked) {
                                   url("assets/check-menuitem-unselected@2.png"));
 }
 
-.primary-toolbar:not(.libreoffice-toolbar) menu radio,
+.primary-toolbar menu radio,
 menubar toolbar menu radio,
 headerbar menu radio,
 menu radio,
@@ -451,7 +451,7 @@ menu radio:indeterminate:not(:checked) {
                                   url("assets/check-menuitem-unselected@2.png"));
 }
 
-.primary-toolbar:not(.libreoffice-toolbar) menu check:checked,
+.primary-toolbar menu check:checked,
 menubar toolbar menu check:checked,
 headerbar menu check:checked,
 menu check:checked {
@@ -465,7 +465,7 @@ menu check:checked:hover {
                                   url("assets/check-menuitem@2.png"));
 }
 
-.primary-toolbar:not(.libreoffice-toolbar) menu check:checked:disabled,
+.primary-toolbar menu check:checked:disabled,
 menubar toolbar menu check:checked:disabled,
 headerbar menu check:checked:disabled,
 toolbar menu check:checked:hover:disabled,
@@ -475,7 +475,7 @@ menu check:checked:hover:disabled {
                                   url("assets/check-menuitem-insensitive@2.png"));
 }
 
-.primary-toolbar:not(.libreoffice-toolbar) menu radio:checked,
+.primary-toolbar menu radio:checked,
 menubar toolbar menu radio:checked,
 headerbar menu radio:checked,
 toolbar menu radio:checked:hover,
@@ -485,7 +485,7 @@ menu radio:checked:hover {
                                   url("assets/radio-menuitem@2.png"));
 }
 
-.primary-toolbar:not(.libreoffice-toolbar) menu radio:checked:disabled,
+.primary-toolbar menu radio:checked:disabled,
 menubar toolbar menu radio:checked:disabled,
 headerbar menu radio:checked:disabled,
 toolbar menu radio:checked:hover:disabled,
