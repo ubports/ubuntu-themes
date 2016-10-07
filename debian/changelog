@@ -1,3 +1,11 @@
+ubuntu-themes (16.10+16.10.20161007-0ubuntu1) yakkety; urgency=medium
+
+  [ Martin Wimpress ]
+  * Fix borders of Libreoffice toolbars, so that they don't overlap the
+    window decorations (LP: #1624571)
+
+ -- iain@orangesquash.org.uk <iain@orangesquash.org.uk>  Fri, 07 Oct 2016 16:30:52 +0000
+
 ubuntu-themes (16.10+16.10.20161005-0ubuntu1) yakkety; urgency=medium
 
   [ Alberts Muktupāvels ]
