@@ -1,3 +1,11 @@
+ubuntu-themes (16.10+17.04.20161024-0ubuntu1) zesty; urgency=medium
+
+  [ Martin Wimpress ]
+  * Dim images of insensitive widgets. Thanks to Marc-Andre Laperle.
+    (LP: #1578810)
+
+ -- iain@orangesquash.org.uk <iain@orangesquash.org.uk>  Mon, 24 Oct 2016 13:03:20 +0000
+
 ubuntu-themes (16.10+16.10.20161007-0ubuntu1) yakkety; urgency=medium
 
   [ Martin Wimpress ]
