@@ -1,3 +1,9 @@
+ubuntu-themes (16.10+17.04.20161031-0ubuntu1) zesty; urgency=medium
+
+  * Fix some deprecation warnings with GTK+ 3.22
+
+ -- Jeremy Bicha <jbicha@ubuntu.com>  Mon, 31 Oct 2016 04:24:27 +0000
+
 ubuntu-themes (16.10+17.04.20161024-0ubuntu1) zesty; urgency=medium
 
   [ Martin Wimpress ]
