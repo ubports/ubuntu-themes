@@ -20,7 +20,7 @@
 
 assistant .sidebar .highlight {
         color: @fg_color;
-        font: bold;
+        font-weight: bold;
 }
 
 assistant .sidebar {
@@ -838,7 +838,8 @@ menu button
 }
 
 .context-menu {
-    font: regular medium;
+    font-size: medium;
+    font-weight: normal;
 }
 
 /***********
@@ -1978,7 +1979,7 @@ headerbar {
 }
 
 .titlebar .title {
-    font: bold;
+    font-weight: bold;
 }
 
 .titlebar .subtitle {
