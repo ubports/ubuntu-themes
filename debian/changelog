@@ -1,3 +1,11 @@
+ubuntu-themes (16.10+17.04.20161118-0ubuntu1) zesty; urgency=medium
+
+  [ Matthieu James ]
+  * [Suru icons] Added a mono icon for launcher settings, called
+    'preferences-desktop-launcher-symbolic'.
+
+ -- Ken VanDine <ken.vandine@canonical.com>  Fri, 18 Nov 2016 18:49:53 +0000
+
 ubuntu-themes (16.10+17.04.20161031-0ubuntu1) zesty; urgency=medium
 
   * Fix some deprecation warnings with GTK+ 3.22
