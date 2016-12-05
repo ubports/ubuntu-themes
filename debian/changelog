@@ -1,3 +1,11 @@
+ubuntu-themes (16.10+17.04.20161205-0ubuntu1) zesty; urgency=medium
+
+  [ Matthieu James ]
+  * [Suru icons] Added wired network indicators and new states for the
+    VPN indicators. Updated designs for error states.
+
+ -- Pete Woods <pete.woods@canonical.com>  Mon, 05 Dec 2016 16:34:35 +0000
+
 ubuntu-themes (16.10+17.04.20161118-0ubuntu1) zesty; urgency=medium
 
   [ Matthieu James ]
