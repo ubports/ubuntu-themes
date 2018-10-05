@@ -1,3 +1,9 @@
+ubuntu-themes (18.10+ubports0) xenial; urgency=medium
+
+  * Replace dependency on ubuntu-wallpapers with ubports-wallpapers
+
+ -- Dalton Durst <dalton@ubports.com>  Fri, 5 Oct 2018 13:40:48 -0500
+
 ubuntu-themes (16.11+ubports) xenial; urgency=medium
 
   * Imported to UBports
