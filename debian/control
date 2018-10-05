@@ -46,7 +46,7 @@ Multi-Arch: foreign
 Depends: adium-theme-ubuntu,
          light-themes,
          ubuntu-mono,
-         ubuntu-wallpapers,
+         ubports-wallpapers,
          ${misc:Depends},
 Description: Ubuntu themes and artwork
  This package contains the Distributor Logo and pulls in all the
