@@ -10,6 +10,13 @@ ubuntu-themes (16.11+ubports) xenial; urgency=medium
 
  -- UBports auto importer <infra@ubports.com>  Sun, 07 Jan 2018 23:13:42 +0100
 
+ubuntu-themes (16.10+17.04.20170126-0ubuntu1) zesty; urgency=medium
+
+  [ Iain Lane ]
+  * gnome-software uses ".dim-label"; we need to style this
+
+ -- iain@orangesquash.org.uk <iain@orangesquash.org.uk>  Thu, 26 Jan 2017 11:52:51 +0000
+
 ubuntu-themes (16.10+17.04.20161205-0ubuntu1) zesty; urgency=medium
 
   [ Matthieu James ]

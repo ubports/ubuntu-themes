@@ -13,9 +13,9 @@
    height="96"
    id="svg4874"
    version="1.1"
-   inkscape:version="0.91+devel r"
+   inkscape:version="0.91 r13725"
    viewBox="0 0 96 96.000001"
-   sodipodi:docname="tab-new.svg">
+   sodipodi:docname="tab-new01a.svg">
   <defs
      id="defs4876" />
   <sodipodi:namedview
@@ -25,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.5967995"
-     inkscape:cx="21.769344"
-     inkscape:cy="17.501635"
+     inkscape:zoom="13.720701"
+     inkscape:cx="29.524728"
+     inkscape:cy="62.507729"
      inkscape:document-units="px"
      inkscape:current-layer="g4780"
      showgrid="true"
@@ -159,16 +159,17 @@
              x="-367.97476"
              y="349.36221" />
           <path
-             sodipodi:nodetypes="sssssssss"
-             inkscape:connector-curvature="0"
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#808080;fill-opacity:1;stroke:none"
+             d="m 18,12 c -6.66666,0 -10,5.1e-4 -10,7.751953 l 0,26.496094 4,0 L 12,42.25 12,35 12,19.751953 c 4e-6,-3.751956 1.000004,-3.751956 6,-3.751953 l 28,0 c 5.000004,-3e-6 5.980417,-3e-6 5.998047,3.751953 l 0,15.248047 0.002,0 0,11.248047 4,0 0,-26.496094 C 56,12.00051 52.66668,12 46,12 Z"
+             transform="matrix(0,-1,-1.0003957,0,438.00245,441.36222)"
              id="path4676"
-             d="m 425.99768,425.36222 c 0,6.66666 -5.1e-4,10 -7.75502,10 l -18.50341,0 c -7.75452,0 -7.75502,-3.33334 -7.75502,-10 l 0,-28 c 0,-6.66668 5e-4,-10 7.75502,-10 l 18.50341,0 c 7.75451,0 7.75502,3.33332 7.75502,10 z"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#808080;fill-opacity:1;stroke:none" />
-          <path
              inkscape:connector-curvature="0"
-             id="path4678"
-             d="m 401.98826,441.36222 0,-60 -12.00482,0 0,60 12.00482,0 z"
-             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#808080;fill-opacity:1;stroke:none" />
+             sodipodi:nodetypes="ssccccccccccccsss" />
+          <path
+             style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:15px;line-height:125%;font-family:Ubuntu;-inkscape-font-specification:Ubuntu;text-align:center;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:middle;display:inline;fill:#808080;fill-opacity:1;stroke:none"
+             d="M 0 44 L 0 48 L 12 48 L 12 44 L 0 44 z M 52 44 L 52 48 L 64 48 L 64 44 L 52 44 z "
+             transform="matrix(0,-1,-1.0003957,0,438.00245,441.36222)"
+             id="path4678" />
         </g>
       </g>
     </g>

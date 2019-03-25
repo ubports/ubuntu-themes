@@ -14,7 +14,7 @@
    height="512"
    id="svg3336"
    version="1.1"
-   inkscape:version="0.91+devel r"
+   inkscape:version="0.91 r13725"
    sodipodi:docname="calculator-app.svg"
    inkscape:export-filename="app_shape02.png"
    inkscape:export-xdpi="180"
@@ -23,6 +23,18 @@
    viewBox="0 0 512 512">
   <defs
      id="defs3338">
+    <linearGradient
+       id="linearGradient3287"
+       inkscape:collect="always">
+      <stop
+         id="stop3289"
+         offset="0"
+         style="stop-color:#d6d6d6;stop-opacity:1" />
+      <stop
+         id="stop3291"
+         offset="1"
+         style="stop-color:#f7f7f7;stop-opacity:1" />
+    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        id="linearGradient4295">
@@ -119,14 +131,26 @@
     </clipPath>
     <linearGradient
        inkscape:collect="always"
-       xlink:href="#linearGradient4273-8"
+       xlink:href="#linearGradient3287"
        id="linearGradient4279"
        x1="384.10001"
        y1="480"
        x2="384.10001"
        y2="2.6514804"
        gradientUnits="userSpaceOnUse"
-       gradientTransform="matrix(1,0,0,-1,0,494.00001)" />
+       gradientTransform="matrix(1,0,0,-1.0666667,0,509.86668)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4273">
+      <stop
+         style="stop-color:#f99e18;stop-opacity:1"
+         offset="0"
+         id="stop4275" />
+      <stop
+         style="stop-color:#fdc92b;stop-opacity:1"
+         offset="1"
+         id="stop4277" />
+    </linearGradient>
     <linearGradient
        inkscape:collect="always"
        xlink:href="#linearGradient4295"
@@ -162,27 +186,15 @@
          stdDeviation="1.8395"
          id="feGaussianBlur4288" />
     </filter>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath4236">
-      <path
-         id="path4238"
-         d="M 0,0 0,183.89844 0,328.10156 0,512 512,512 512,328.10156 512,183.89844 512,0 0,0 Z"
-         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#5a7072;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
-         inkscape:connector-curvature="0" />
-    </clipPath>
     <linearGradient
        inkscape:collect="always"
-       id="linearGradient4273-8">
-      <stop
-         style="stop-color:#f9af18;stop-opacity:1"
-         offset="0"
-         id="stop4275-0" />
-      <stop
-         style="stop-color:#fecf3b;stop-opacity:1"
-         offset="1"
-         id="stop4277-4" />
-    </linearGradient>
+       xlink:href="#linearGradient4273"
+       id="linearGradient3285"
+       x1="166.05469"
+       y1="19.999998"
+       x2="314.88"
+       y2="494"
+       gradientUnits="userSpaceOnUse" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -191,12 +203,12 @@
      borderopacity="1.0"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.64"
-     inkscape:cx="-15.830859"
-     inkscape:cy="32.690938"
+     inkscape:zoom="1.25"
+     inkscape:cx="248.17459"
+     inkscape:cy="203.37776"
      inkscape:document-units="px"
-     inkscape:current-layer="layer3"
-     showgrid="true"
+     inkscape:current-layer="g4290"
+     showgrid="false"
      inkscape:window-width="1920"
      inkscape:window-height="1029"
      inkscape:window-x="0"
@@ -324,7 +336,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -333,44 +345,37 @@
      id="layer3"
      inkscape:label="Background">
     <path
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#4d4d4d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient3285);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
        d="M 0 0 L 0 183.89844 L 0 328.10156 L 0 512 L 512 512 L 512 328.10156 L 512 183.89844 L 512 0 L 0 0 z "
        id="rect4158" />
     <path
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.07;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.15;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
        d="M 0 256 L 0 328.10156 L 0 512 L 512 512 L 512 328.10156 L 512 256 L 0 256 z "
        id="path4269" />
     <g
-       inkscape:groupmode="maskhelper"
-       id="g4230"
-       clip-path="url(#clipPath4236)">
-      <g
-         transform="matrix(1,0,0,1.1195067,0,-30.593707)"
-         id="g4290"
-         style="stroke-width:0.94511938;enable-background:new">
-        <path
-           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.4;fill:url(#linearGradient4274);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:37.80477524;marker:none;filter:url(#filter4276);enable-background:accumulate"
-           d="M 256.19999,496.00001 256.19999,16 512,16 l 0,480.00001 -255.80001,0 z"
-           id="path4266"
-           inkscape:connector-curvature="0" />
-        <path
-           style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:37.80477524;marker:none;filter:url(#filter4286);enable-background:accumulate"
-           d="M 256.19999,496.00001 256.19999,16 512,16 l 0,480.00001 -255.80001,0 z"
-           id="path4280"
-           inkscape:connector-curvature="0" />
-        <path
-           inkscape:connector-curvature="0"
-           id="path4231"
-           d="M 256.19999,496.00001 256.19999,16 512,16 l 0,480.00001 -255.80001,0 z"
-           style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient4279);fill-opacity:1.0;fill-rule:nonzero;stroke:none;stroke-width:37.80477524;marker:none;enable-background:accumulate" />
-      </g>
+       style="enable-background:new"
+       id="g4290">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4266"
+         d="M 256.19999,496.00001 256.19999,16 512,16 l 0,480.00001 z"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.4;fill:url(#linearGradient4274);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:40;marker:none;filter:url(#filter4276);enable-background:accumulate" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4280"
+         d="M 256.19999,496.00001 256.19999,16 512,16 l 0,480.00001 z"
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;opacity:0.1;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:40;marker:none;filter:url(#filter4286);enable-background:accumulate" />
+      <path
+         style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:url(#linearGradient4279);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:40;marker:none;enable-background:accumulate"
+         d="M 256.19999,512.00001 256.19999,0 512,0 l 0,512.00001 z"
+         id="path4231"
+         inkscape:connector-curvature="0" />
     </g>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer4"
-     inkscape:label="Pictogram"
-     sodipodi:insensitive="true">
+     inkscape:label="Pictogram">
     <path
        inkscape:connector-curvature="0"
        id="path4505-6"
@@ -392,14 +397,10 @@
        x="-348"
        y="-208" />
     <path
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:40;marker:none;enable-background:accumulate"
-       d="m 304,224 0,16 104,0 0,-16 -104,0 z"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#5d5d5d;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:40;marker:none;enable-background:accumulate"
+       d="m 336,256 0,16 104,0 0,-16 -104,0 z m 0,48 0,16 104,0 0,-16 -104,0 z"
+       transform="translate(-32,-32)"
        id="path4242"
-       inkscape:connector-curvature="0" />
-    <path
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#f2f2f2;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:40;marker:none;enable-background:accumulate"
-       d="m 304,272 0,16 104,0 0,-16 -104,0 z"
-       id="rect4131"
        inkscape:connector-curvature="0" />
   </g>
 </svg>
