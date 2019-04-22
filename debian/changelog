@@ -1,3 +1,9 @@
+ubuntu-themes (2019.04+ubports0) xenial; urgency=medium
+
+  * Update Suru icons from upstream
+
+ -- Michele Castellazzi <miguel2000@livecom.it>  Wed, 10 Apr 2019 18:54:26 +0200
+
 ubuntu-themes (18.10+ubports0) xenial; urgency=medium
 
   * Replace dependency on ubuntu-wallpapers with ubports-wallpapers
