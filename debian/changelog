@@ -1,3 +1,9 @@
+ubuntu-themes (18.10+ubports1) xenial; urgency=medium
+
+  * Update Suru icons from upstream
+
+ -- Michele Castellazzi <miguel2000@livecom.it>  Wed, 10 Apr 2019 18:54:26 +0200
+
 ubuntu-themes (18.10+ubports0) xenial; urgency=medium
 
   * Replace dependency on ubuntu-wallpapers with ubports-wallpapers
@@ -9,6 +15,13 @@ ubuntu-themes (16.11+ubports) xenial; urgency=medium
   * Imported to UBports
 
  -- UBports auto importer <infra@ubports.com>  Sun, 07 Jan 2018 23:13:42 +0100
+
+ubuntu-themes (16.10+17.04.20170126-0ubuntu1) zesty; urgency=medium
+
+  [ Iain Lane ]
+  * gnome-software uses ".dim-label"; we need to style this
+
+ -- iain@orangesquash.org.uk <iain@orangesquash.org.uk>  Thu, 26 Jan 2017 11:52:51 +0000
 
 ubuntu-themes (16.10+17.04.20161205-0ubuntu1) zesty; urgency=medium
 
